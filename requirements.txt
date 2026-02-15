@@ -8,3 +8,8 @@ scikit-learn
 matplotlib
 seaborn
 pyyaml
+scikit-learn
+sentence-transformers
+bert-score
+matplotlib
+seaborn

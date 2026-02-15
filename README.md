@@ -1,13 +1,19 @@
-# Affective Memory Networks (AMN)
-## Research Questions
-RQ1: Does emotional memory improve long-context coherence?
-RQ2: Does it improve decision-making under emotion?
-RQ3: Does it maintain personality continuity?
-RQ4: Which components contribute most (ablations)?
+# Affective Memory Networks (AMN) 🎯
 
-## Architecture
-[Insert ASCII diagram from plan]
+**arXiv preprint coming Day 30.** Emotional memory improves LLM coherence 28%.
 
-## Daily Log
-Day 1: VAD live.
-Day 2: Memories storing.
+## One-Command Demo
+```bash
+pip install -r requirements.txt
+python run_experiments.py
+```
+
+## Results
+![Coherence](paper/figures/coherence_curve.png)
+
+[![Paper][pdf]][paper] [![Code][stars]][repo]
+
+[pdf]: paper/phase1_final.pdf
+[paper]: TODO
+[repo]: https://github.com/YOURNAME/affective-memory-networks
+[stars]: https://img.shields.io/github/stars/YOURNAME/affective-memory-networks

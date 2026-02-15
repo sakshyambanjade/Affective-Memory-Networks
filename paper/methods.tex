@@ -11,3 +11,17 @@ Working memory holds $C=5$ recent episodes $e_t = (content_t, VAD_t, recency_t, 
 Episodic memory stores chronologically: $E = \{e_1, \dots, e_n\}$.
 
 Consolidation: $trigger(e) = \mathbb{I}(arousal > 0.7 \lor goal > 0.8)$.
+
+\subsection{Affective Retrieval}
+Score: \[ s(e,q) = 0.25 \cdot sim_{sem}(e,q) + 0.30 \cdot res_{emo}(VAD_e, VAD_q) + \dots \]
+
+Emotional resonance (complementary): \[ res_{emo} = \frac{ |V_e - V_q| + (1 - |A_e - A_q|/2) }{2} \]
+
+\subsection{Cognitive Appraisal (Lazarus)}
+We extend VAD with 6 appraisal dimensions \cite{lazarus1991emotion}:
+
+$$A = (VAD, G, Agency, C, Novelty, Pleasant, Control)$$
+
+Consolidation trigger: $\mathbb{I}(Arousal > 0.7 \lor Goal > 0.8)$
+
+Retrieval goal alignment: $sim_G(A_q, A_e) = \frac{sim(Goal_q, Goal_e) + sim(Agency_q, Agency_e)}{2}$

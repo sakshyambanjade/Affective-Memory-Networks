@@ -8,18 +8,18 @@ import os
 _root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 if _root not in sys.path:
     sys.path.insert(0, _root)
-from src.emotion.analyzer import EmotionalAppraisal, VAD
+from src.emotion.analyzer import FullEmotionalAppraisal, LazarusAppraisal
 
 logger = logging.getLogger('AMN')
 
 @dataclass
 class MemoryEntry:
     id: str
-    content: str  # Interaction text (user + agent)
-    vad: VAD
+    content: str
+    appraisal: LazarusAppraisal
     timestamp: datetime
-    recency_score: float  # 1.0 recent → 0.0 old
-    importance: float  # Peak-end: 1.0 if arousal>0.7 else 0.5 (locked)
+    recency_score: float
+    importance: float
     metadata: Dict[str, Any] = None
 
     def __post_init__(self):
@@ -29,26 +29,24 @@ class MemoryEntry:
 class WorkingMemory:
     def __init__(self, capacity: int = 5):
         self.capacity = capacity
-        self.memories: List[MemoryEntry] = []  # Ordered: recent first
-        self.appraiser = EmotionalAppraisal()
+        self.memories: List[MemoryEntry] = []
+        self.appraiser = FullEmotionalAppraisal()
 
-    def add(self, content: str, user_vad: Optional[VAD] = None) -> MemoryEntry:
+    def add(self, content: str) -> MemoryEntry:
+        appraisal_dict = self.appraiser.full_appraisal(content)
+        appraisal = appraisal_dict['lazarus']
         if len(self.memories) >= self.capacity:
-            evicted = self.memories.pop()  # LRU eviction
-            logger.info(f"Evicted WM: {evicted.id}")
-        vad = user_vad or self.appraiser.analyze(content)['vad']
-        importance = 1.0 if vad.arousal > 0.7 else 0.5  # Peak-end binary (locked)
+            evicted = self.memories.pop()
+            logger.info(f"Evicted: {evicted.id}")
         entry = MemoryEntry(
             id=str(uuid.uuid4()),
             content=content,
-            vad=vad,
+            appraisal=appraisal,
             timestamp=datetime.now(),
             recency_score=1.0,
-            importance=importance
+            importance=1.0 if appraisal_dict['consolidate'] else 0.5
         )
-        self.memories.insert(0, entry)  # Recent first
-        self._decay_recency()
-        logger.info(f"Added to WM: {entry.id} | VAD: {entry.vad}")
+        self.memories.insert(0, entry)
         return entry
 
     def _decay_recency(self):
