@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from typing import List, Tuple
 from src.memory.core import MemoryEntry, WorkingMemory, EpisodicMemory
-from src.emotion.analyzer import EmotionalAppraisal
+from src.emotion.analyzer import FullEmotionalAppraisal
 import logging
 
 logger = logging.getLogger('AMN')
@@ -21,7 +21,7 @@ class RetrievalEngine:
         self.wm = wm
         self.em = em
         self.k = k
-        self.appraiser = EmotionalAppraisal()
+        self.appraiser = FullEmotionalAppraisal()
         self.vectorizer = TfidfVectorizer(max_features=1000, stop_words='english')
         self._fit_vectorizer()
 
@@ -49,11 +49,17 @@ class RetrievalEngine:
         if not all_mems:
             return []
 
+        # Compute full appraisal for query
+        query_appraisal_dict = self.appraiser.full_appraisal(query)
+        query_appraisal = query_appraisal_dict['lazarus']
+
         scores = []
         for mem in all_mems:
             sem = self._semantic_score(query, mem)
-            emo = self._emotional_resonance(query_vad, mem.vad)
-            goal = self._goal_align(query_appraisal, mem.appraisal)
+            # Use mem.appraisal.vad for emotional resonance
+            emo = self._emotional_resonance(query_vad, mem.appraisal.vad)
+            # Use goal_relevance as proxy for goal alignment
+            goal = 1 - abs(query_appraisal.goal_relevance - mem.appraisal.goal_relevance)
             peak = mem.importance
             rec = mem.recency_score
             total = (
@@ -66,5 +72,6 @@ class RetrievalEngine:
             scores.append((mem, total))
 
         top_k = sorted(scores, key=lambda x: x[1], reverse=True)[:self.k]
-        logger.info(f"Retrieved top-1: {top_k[0][0].id} score={top_k[0][1]:.3f}")
+        if top_k:
+            logger.info(f"Retrieved top-1: {top_k[0][0].id} score={top_k[0][1]:.3f}")
         return top_k

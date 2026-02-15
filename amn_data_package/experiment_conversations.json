@@ -1,0 +1,1933 @@
+[
+  {
+    "id": "conv_006",
+    "primary_emotion": "grief",
+    "emotion_category": "grief_loss",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "My relationship ended after 5 years together.",
+        "emotion": "grief",
+        "valence": -0.65,
+        "arousal": 0.5,
+        "dominance": 0.68
+      },
+      {
+        "speaker": "agent",
+        "text": "That must be difficult for you.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm trying my best to cope.",
+        "emotion": "grief",
+        "valence": -0.6,
+        "arousal": 0.44,
+        "dominance": 0.59
+      },
+      {
+        "speaker": "agent",
+        "text": "I can understand why you'd feel that way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "You're right.",
+        "emotion": "grief",
+        "valence": -0.48,
+        "arousal": 0.35,
+        "dominance": 0.55
+      },
+      {
+        "speaker": "agent",
+        "text": "I hear you. That sounds really difficult.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm taking it one day at a time.",
+        "emotion": "grief",
+        "valence": -0.4,
+        "arousal": 0.27,
+        "dominance": 0.48
+      },
+      {
+        "speaker": "agent",
+        "text": "I can understand why you'd feel that way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "That helps to hear.",
+        "emotion": "grief",
+        "valence": -0.29,
+        "arousal": 0.2,
+        "dominance": 0.42
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": -0.65,
+    "initial_arousal": 0.5
+  },
+  {
+    "id": "conv_001",
+    "primary_emotion": "grief",
+    "emotion_category": "grief_loss",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I lost my grandmother last month. I still can't believe she's gone.",
+        "emotion": "grief",
+        "valence": -0.8,
+        "arousal": 0.6,
+        "dominance": 0.36
+      },
+      {
+        "speaker": "agent",
+        "text": "It's okay to feel what you're feeling.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "You're right.",
+        "emotion": "grief",
+        "valence": -0.72,
+        "arousal": 0.51,
+        "dominance": 0.36
+      },
+      {
+        "speaker": "agent",
+        "text": "I can understand why you'd feel that way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "grief",
+        "valence": -0.65,
+        "arousal": 0.46,
+        "dominance": 0.38
+      },
+      {
+        "speaker": "agent",
+        "text": "That must be difficult for you.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "grief",
+        "valence": -0.55,
+        "arousal": 0.38,
+        "dominance": 0.67
+      }
+    ],
+    "conversation_length": 7,
+    "initial_valence": -0.8,
+    "initial_arousal": 0.6
+  },
+  {
+    "id": "conv_008",
+    "primary_emotion": "joy",
+    "emotion_category": "joy_celebration",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I just got engaged! I'm so happy I could cry!",
+        "emotion": "joy",
+        "valence": 0.95,
+        "arousal": 0.9,
+        "dominance": 0.52
+      },
+      {
+        "speaker": "agent",
+        "text": "What do you think would help you feel better?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "That helps to hear.",
+        "emotion": "joy",
+        "valence": 0.95,
+        "arousal": 0.83,
+        "dominance": 0.32
+      },
+      {
+        "speaker": "agent",
+        "text": "Can you tell me more about what happened?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "You're right.",
+        "emotion": "joy",
+        "valence": 0.95,
+        "arousal": 0.73,
+        "dominance": 0.49
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm trying my best to cope.",
+        "emotion": "joy",
+        "valence": 0.95,
+        "arousal": 0.67,
+        "dominance": 0.54
+      }
+    ],
+    "conversation_length": 7,
+    "initial_valence": 0.95,
+    "initial_arousal": 0.9
+  },
+  {
+    "id": "conv_013",
+    "primary_emotion": "joy",
+    "emotion_category": "joy_celebration",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I won a major award in my field!",
+        "emotion": "joy",
+        "valence": 0.91,
+        "arousal": 0.86,
+        "dominance": 0.33
+      },
+      {
+        "speaker": "agent",
+        "text": "How long have you been feeling like this?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "Thank you for listening.",
+        "emotion": "joy",
+        "valence": 0.91,
+        "arousal": 0.78,
+        "dominance": 0.61
+      },
+      {
+        "speaker": "agent",
+        "text": "That must be wonderful for you.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "You're right.",
+        "emotion": "joy",
+        "valence": 0.91,
+        "arousal": 0.7,
+        "dominance": 0.39
+      },
+      {
+        "speaker": "agent",
+        "text": "I hear you. That sounds really wonderful.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "Thank you for listening.",
+        "emotion": "joy",
+        "valence": 0.91,
+        "arousal": 0.65,
+        "dominance": 0.54
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I just needed someone to talk to.",
+        "emotion": "joy",
+        "valence": 0.91,
+        "arousal": 0.56,
+        "dominance": 0.68
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": 0.91,
+    "initial_arousal": 0.86
+  },
+  {
+    "id": "conv_017",
+    "primary_emotion": "anxiety",
+    "emotion_category": "anxiety_worry",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I have to give a presentation to 200 people. I'm panicking.",
+        "emotion": "anxiety",
+        "valence": -0.65,
+        "arousal": 0.88,
+        "dominance": 0.64
+      },
+      {
+        "speaker": "agent",
+        "text": "How long have you been feeling like this?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "anxiety",
+        "valence": -0.58,
+        "arousal": 0.8,
+        "dominance": 0.67
+      },
+      {
+        "speaker": "agent",
+        "text": "How long have you been feeling like this?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I just needed someone to talk to.",
+        "emotion": "anxiety",
+        "valence": -0.48,
+        "arousal": 0.73,
+        "dominance": 0.3
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for sharing that with me. Your feelings are valid.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm trying my best to cope.",
+        "emotion": "anxiety",
+        "valence": -0.41,
+        "arousal": 0.68,
+        "dominance": 0.61
+      }
+    ],
+    "conversation_length": 7,
+    "initial_valence": -0.65,
+    "initial_arousal": 0.88
+  },
+  {
+    "id": "conv_016",
+    "primary_emotion": "anxiety",
+    "emotion_category": "anxiety_worry",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "My medical test results come back next week. I can't stop worrying.",
+        "emotion": "anxiety",
+        "valence": -0.7,
+        "arousal": 0.85,
+        "dominance": 0.57
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "anxiety",
+        "valence": -0.64,
+        "arousal": 0.76,
+        "dominance": 0.51
+      },
+      {
+        "speaker": "agent",
+        "text": "Can you tell me more about what happened?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "Thank you for listening.",
+        "emotion": "anxiety",
+        "valence": -0.52,
+        "arousal": 0.68,
+        "dominance": 0.32
+      },
+      {
+        "speaker": "agent",
+        "text": "It's okay to feel what you're feeling.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I hadn't thought of it that way.",
+        "emotion": "anxiety",
+        "valence": -0.45,
+        "arousal": 0.63,
+        "dominance": 0.62
+      },
+      {
+        "speaker": "agent",
+        "text": "That must be difficult for you.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "That helps to hear.",
+        "emotion": "anxiety",
+        "valence": -0.36,
+        "arousal": 0.56,
+        "dominance": 0.59
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": -0.7,
+    "initial_arousal": 0.85
+  },
+  {
+    "id": "conv_023",
+    "primary_emotion": "anger",
+    "emotion_category": "anger_betrayal",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I found out my best friend has been talking behind my back.",
+        "emotion": "anger",
+        "valence": -0.8,
+        "arousal": 0.9,
+        "dominance": 0.69
+      },
+      {
+        "speaker": "agent",
+        "text": "Can you tell me more about what happened?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I just needed someone to talk to.",
+        "emotion": "anger",
+        "valence": -0.69,
+        "arousal": 0.8,
+        "dominance": 0.35
+      },
+      {
+        "speaker": "agent",
+        "text": "What do you think would help you feel better?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "Thank you for listening.",
+        "emotion": "anger",
+        "valence": -0.6,
+        "arousal": 0.72,
+        "dominance": 0.42
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I hadn't thought of it that way.",
+        "emotion": "anger",
+        "valence": -0.52,
+        "arousal": 0.63,
+        "dominance": 0.57
+      }
+    ],
+    "conversation_length": 7,
+    "initial_valence": -0.8,
+    "initial_arousal": 0.9
+  },
+  {
+    "id": "conv_028",
+    "primary_emotion": "anger",
+    "emotion_category": "anger_betrayal",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "Someone plagiarized my creative work.",
+        "emotion": "anger",
+        "valence": -0.82,
+        "arousal": 0.93,
+        "dominance": 0.46
+      },
+      {
+        "speaker": "agent",
+        "text": "That's completely understandable given the situation.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm taking it one day at a time.",
+        "emotion": "anger",
+        "valence": -0.7,
+        "arousal": 0.84,
+        "dominance": 0.4
+      },
+      {
+        "speaker": "agent",
+        "text": "Can you tell me more about what happened?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I just needed someone to talk to.",
+        "emotion": "anger",
+        "valence": -0.61,
+        "arousal": 0.75,
+        "dominance": 0.52
+      },
+      {
+        "speaker": "agent",
+        "text": "Can you tell me more about what happened?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I hadn't thought of it that way.",
+        "emotion": "anger",
+        "valence": -0.56,
+        "arousal": 0.7,
+        "dominance": 0.56
+      }
+    ],
+    "conversation_length": 7,
+    "initial_valence": -0.82,
+    "initial_arousal": 0.93
+  },
+  {
+    "id": "conv_034",
+    "primary_emotion": "gratitude",
+    "emotion_category": "gratitude_appreciation",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "My teacher wrote me the most encouraging letter.",
+        "emotion": "gratitude",
+        "valence": 0.79,
+        "arousal": 0.5,
+        "dominance": 0.48
+      },
+      {
+        "speaker": "agent",
+        "text": "I can understand why you'd feel that way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "That helps to hear.",
+        "emotion": "gratitude",
+        "valence": 0.79,
+        "arousal": 0.44,
+        "dominance": 0.6
+      },
+      {
+        "speaker": "agent",
+        "text": "It's okay to feel what you're feeling.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I hadn't thought of it that way.",
+        "emotion": "gratitude",
+        "valence": 0.79,
+        "arousal": 0.36,
+        "dominance": 0.7
+      },
+      {
+        "speaker": "agent",
+        "text": "How long have you been feeling like this?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "You're right.",
+        "emotion": "gratitude",
+        "valence": 0.79,
+        "arousal": 0.29,
+        "dominance": 0.52
+      },
+      {
+        "speaker": "agent",
+        "text": "That's completely understandable given the situation.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "gratitude",
+        "valence": 0.79,
+        "arousal": 0.22,
+        "dominance": 0.54
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": 0.79,
+    "initial_arousal": 0.5
+  },
+  {
+    "id": "conv_029",
+    "primary_emotion": "gratitude",
+    "emotion_category": "gratitude_appreciation",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "My friends threw me a surprise party. I'm so touched.",
+        "emotion": "gratitude",
+        "valence": 0.8,
+        "arousal": 0.5,
+        "dominance": 0.6
+      },
+      {
+        "speaker": "agent",
+        "text": "What do you think would help you feel better?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "gratitude",
+        "valence": 0.8,
+        "arousal": 0.41,
+        "dominance": 0.33
+      },
+      {
+        "speaker": "agent",
+        "text": "How long have you been feeling like this?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm trying my best to cope.",
+        "emotion": "gratitude",
+        "valence": 0.8,
+        "arousal": 0.35,
+        "dominance": 0.31
+      },
+      {
+        "speaker": "agent",
+        "text": "How long have you been feeling like this?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I hadn't thought of it that way.",
+        "emotion": "gratitude",
+        "valence": 0.8,
+        "arousal": 0.28,
+        "dominance": 0.59
+      }
+    ],
+    "conversation_length": 7,
+    "initial_valence": 0.8,
+    "initial_arousal": 0.5
+  },
+  {
+    "id": "conv_041",
+    "primary_emotion": "pride",
+    "emotion_category": "pride_accomplishment",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I started my own business and got my first client!",
+        "emotion": "pride",
+        "valence": 0.84,
+        "arousal": 0.7,
+        "dominance": 0.62
+      },
+      {
+        "speaker": "agent",
+        "text": "What do you think would help you feel better?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "That helps to hear.",
+        "emotion": "pride",
+        "valence": 0.84,
+        "arousal": 0.63,
+        "dominance": 0.63
+      },
+      {
+        "speaker": "agent",
+        "text": "That's completely understandable given the situation.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "You're right.",
+        "emotion": "pride",
+        "valence": 0.84,
+        "arousal": 0.53,
+        "dominance": 0.45
+      },
+      {
+        "speaker": "agent",
+        "text": "What do you think would help you feel better?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "pride",
+        "valence": 0.84,
+        "arousal": 0.46,
+        "dominance": 0.45
+      },
+      {
+        "speaker": "agent",
+        "text": "How long have you been feeling like this?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I hadn't thought of it that way.",
+        "emotion": "pride",
+        "valence": 0.84,
+        "arousal": 0.4,
+        "dominance": 0.36
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": 0.84,
+    "initial_arousal": 0.7
+  },
+  {
+    "id": "conv_042",
+    "primary_emotion": "pride",
+    "emotion_category": "pride_accomplishment",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I reached my weight loss goal after a year of hard work.",
+        "emotion": "pride",
+        "valence": 0.81,
+        "arousal": 0.67,
+        "dominance": 0.63
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for sharing that with me. Your feelings are valid.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "You're right.",
+        "emotion": "pride",
+        "valence": 0.81,
+        "arousal": 0.58,
+        "dominance": 0.62
+      },
+      {
+        "speaker": "agent",
+        "text": "Can you tell me more about what happened?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm taking it one day at a time.",
+        "emotion": "pride",
+        "valence": 0.81,
+        "arousal": 0.48,
+        "dominance": 0.32
+      },
+      {
+        "speaker": "agent",
+        "text": "I hear you. That sounds really wonderful.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm trying my best to cope.",
+        "emotion": "pride",
+        "valence": 0.81,
+        "arousal": 0.43,
+        "dominance": 0.38
+      },
+      {
+        "speaker": "agent",
+        "text": "It's okay to feel what you're feeling.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "Thank you for listening.",
+        "emotion": "pride",
+        "valence": 0.81,
+        "arousal": 0.37,
+        "dominance": 0.67
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": 0.81,
+    "initial_arousal": 0.67
+  },
+  {
+    "id": "conv_047",
+    "primary_emotion": "loneliness",
+    "emotion_category": "loneliness_isolation",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I work from home and barely talk to anyone all day.",
+        "emotion": "loneliness",
+        "valence": -0.62,
+        "arousal": 0.36,
+        "dominance": 0.68
+      },
+      {
+        "speaker": "agent",
+        "text": "How long have you been feeling like this?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "That helps to hear.",
+        "emotion": "loneliness",
+        "valence": -0.55,
+        "arousal": 0.29,
+        "dominance": 0.38
+      },
+      {
+        "speaker": "agent",
+        "text": "I hear you. That sounds really difficult.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "You're right.",
+        "emotion": "loneliness",
+        "valence": -0.45,
+        "arousal": 0.22,
+        "dominance": 0.5
+      },
+      {
+        "speaker": "agent",
+        "text": "I hear you. That sounds really difficult.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "Thank you for listening.",
+        "emotion": "loneliness",
+        "valence": -0.34,
+        "arousal": 0.2,
+        "dominance": 0.58
+      }
+    ],
+    "conversation_length": 7,
+    "initial_valence": -0.62,
+    "initial_arousal": 0.36
+  },
+  {
+    "id": "conv_043",
+    "primary_emotion": "loneliness",
+    "emotion_category": "loneliness_isolation",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I moved to a new city and don't know anyone here.",
+        "emotion": "loneliness",
+        "valence": -0.65,
+        "arousal": 0.4,
+        "dominance": 0.33
+      },
+      {
+        "speaker": "agent",
+        "text": "It's okay to feel what you're feeling.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "That helps to hear.",
+        "emotion": "loneliness",
+        "valence": -0.56,
+        "arousal": 0.32,
+        "dominance": 0.39
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm trying my best to cope.",
+        "emotion": "loneliness",
+        "valence": -0.48,
+        "arousal": 0.24,
+        "dominance": 0.61
+      },
+      {
+        "speaker": "agent",
+        "text": "Can you tell me more about what happened?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I hadn't thought of it that way.",
+        "emotion": "loneliness",
+        "valence": -0.37,
+        "arousal": 0.2,
+        "dominance": 0.59
+      },
+      {
+        "speaker": "agent",
+        "text": "What do you think would help you feel better?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm trying my best to cope.",
+        "emotion": "loneliness",
+        "valence": -0.28,
+        "arousal": 0.2,
+        "dominance": 0.39
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": -0.65,
+    "initial_arousal": 0.4
+  },
+  {
+    "id": "conv_054",
+    "primary_emotion": "guilt",
+    "emotion_category": "guilt_regret",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I broke a promise to someone important to me.",
+        "emotion": "guilt",
+        "valence": -0.66,
+        "arousal": 0.48,
+        "dominance": 0.47
+      },
+      {
+        "speaker": "agent",
+        "text": "That must be difficult for you.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "guilt",
+        "valence": -0.55,
+        "arousal": 0.42,
+        "dominance": 0.37
+      },
+      {
+        "speaker": "agent",
+        "text": "How long have you been feeling like this?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "guilt",
+        "valence": -0.47,
+        "arousal": 0.35,
+        "dominance": 0.69
+      },
+      {
+        "speaker": "agent",
+        "text": "Can you tell me more about what happened?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "That helps to hear.",
+        "emotion": "guilt",
+        "valence": -0.4,
+        "arousal": 0.25,
+        "dominance": 0.51
+      }
+    ],
+    "conversation_length": 7,
+    "initial_valence": -0.66,
+    "initial_arousal": 0.48
+  },
+  {
+    "id": "conv_053",
+    "primary_emotion": "guilt",
+    "emotion_category": "guilt_regret",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I missed my child's recital because of work.",
+        "emotion": "guilt",
+        "valence": -0.68,
+        "arousal": 0.52,
+        "dominance": 0.51
+      },
+      {
+        "speaker": "agent",
+        "text": "What do you think would help you feel better?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I hadn't thought of it that way.",
+        "emotion": "guilt",
+        "valence": -0.57,
+        "arousal": 0.43,
+        "dominance": 0.56
+      },
+      {
+        "speaker": "agent",
+        "text": "How long have you been feeling like this?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "guilt",
+        "valence": -0.48,
+        "arousal": 0.37,
+        "dominance": 0.37
+      },
+      {
+        "speaker": "agent",
+        "text": "That must be difficult for you.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "guilt",
+        "valence": -0.41,
+        "arousal": 0.3,
+        "dominance": 0.35
+      },
+      {
+        "speaker": "agent",
+        "text": "Can you tell me more about what happened?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I appreciate your understanding.",
+        "emotion": "guilt",
+        "valence": -0.3,
+        "arousal": 0.22,
+        "dominance": 0.67
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": -0.68,
+    "initial_arousal": 0.52
+  },
+  {
+    "id": "conv_057",
+    "primary_emotion": "excitement",
+    "emotion_category": "excitement_anticipation",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I'm going to Europe next week for the first time!",
+        "emotion": "excitement",
+        "valence": 0.88,
+        "arousal": 0.85,
+        "dominance": 0.51
+      },
+      {
+        "speaker": "agent",
+        "text": "That's completely understandable given the situation.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "excitement",
+        "valence": 0.88,
+        "arousal": 0.78,
+        "dominance": 0.32
+      },
+      {
+        "speaker": "agent",
+        "text": "Can you tell me more about what happened?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "excitement",
+        "valence": 0.88,
+        "arousal": 0.69,
+        "dominance": 0.32
+      },
+      {
+        "speaker": "agent",
+        "text": "That's completely understandable given the situation.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "That helps to hear.",
+        "emotion": "excitement",
+        "valence": 0.88,
+        "arousal": 0.64,
+        "dominance": 0.33
+      }
+    ],
+    "conversation_length": 7,
+    "initial_valence": 0.88,
+    "initial_arousal": 0.85
+  },
+  {
+    "id": "conv_063",
+    "primary_emotion": "excitement",
+    "emotion_category": "excitement_anticipation",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I'm about to skydive for the first time!",
+        "emotion": "excitement",
+        "valence": 0.87,
+        "arousal": 0.87,
+        "dominance": 0.5
+      },
+      {
+        "speaker": "agent",
+        "text": "That must be wonderful for you.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "Thank you for listening.",
+        "emotion": "excitement",
+        "valence": 0.87,
+        "arousal": 0.79,
+        "dominance": 0.7
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for sharing that with me. Your feelings are valid.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I hadn't thought of it that way.",
+        "emotion": "excitement",
+        "valence": 0.87,
+        "arousal": 0.7,
+        "dominance": 0.35
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for sharing that with me. Your feelings are valid.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "excitement",
+        "valence": 0.87,
+        "arousal": 0.64,
+        "dominance": 0.42
+      }
+    ],
+    "conversation_length": 7,
+    "initial_valence": 0.87,
+    "initial_arousal": 0.87
+  },
+  {
+    "id": "conv_064",
+    "primary_emotion": "disappointment",
+    "emotion_category": "disappointment_defeat",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I didn't get the promotion I was hoping for.",
+        "emotion": "disappointment",
+        "valence": -0.6,
+        "arousal": 0.35,
+        "dominance": 0.52
+      },
+      {
+        "speaker": "agent",
+        "text": "That must be difficult for you.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I appreciate your understanding.",
+        "emotion": "disappointment",
+        "valence": -0.5,
+        "arousal": 0.27,
+        "dominance": 0.54
+      },
+      {
+        "speaker": "agent",
+        "text": "I can understand why you'd feel that way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm taking it one day at a time.",
+        "emotion": "disappointment",
+        "valence": -0.43,
+        "arousal": 0.21,
+        "dominance": 0.4
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for sharing that with me. Your feelings are valid.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "disappointment",
+        "valence": -0.32,
+        "arousal": 0.2,
+        "dominance": 0.35
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I appreciate your understanding.",
+        "emotion": "disappointment",
+        "valence": -0.24,
+        "arousal": 0.2,
+        "dominance": 0.69
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": -0.6,
+    "initial_arousal": 0.35
+  },
+  {
+    "id": "conv_065",
+    "primary_emotion": "disappointment",
+    "emotion_category": "disappointment_defeat",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "My project was rejected after months of work.",
+        "emotion": "disappointment",
+        "valence": -0.65,
+        "arousal": 0.4,
+        "dominance": 0.4
+      },
+      {
+        "speaker": "agent",
+        "text": "That's completely understandable given the situation.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "disappointment",
+        "valence": -0.54,
+        "arousal": 0.31,
+        "dominance": 0.5
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "disappointment",
+        "valence": -0.45,
+        "arousal": 0.26,
+        "dominance": 0.46
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm trying my best to cope.",
+        "emotion": "disappointment",
+        "valence": -0.34,
+        "arousal": 0.2,
+        "dominance": 0.58
+      },
+      {
+        "speaker": "agent",
+        "text": "That must be difficult for you.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "disappointment",
+        "valence": -0.25,
+        "arousal": 0.2,
+        "dominance": 0.5
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": -0.65,
+    "initial_arousal": 0.4
+  },
+  {
+    "id": "conv_072",
+    "primary_emotion": "embarrassment",
+    "emotion_category": "embarrassment_shame",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I called my teacher 'mom' in class. I'm mortified.",
+        "emotion": "embarrassment",
+        "valence": -0.5,
+        "arousal": 0.65,
+        "dominance": 0.65
+      },
+      {
+        "speaker": "agent",
+        "text": "That's completely understandable given the situation.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "embarrassment",
+        "valence": -0.42,
+        "arousal": 0.57,
+        "dominance": 0.35
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm taking it one day at a time.",
+        "emotion": "embarrassment",
+        "valence": -0.33,
+        "arousal": 0.49,
+        "dominance": 0.48
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for sharing that with me. Your feelings are valid.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "embarrassment",
+        "valence": -0.27,
+        "arousal": 0.43,
+        "dominance": 0.42
+      }
+    ],
+    "conversation_length": 7,
+    "initial_valence": -0.5,
+    "initial_arousal": 0.65
+  },
+  {
+    "id": "conv_075",
+    "primary_emotion": "embarrassment",
+    "emotion_category": "embarrassment_shame",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I showed up to the wrong address for an interview.",
+        "emotion": "embarrassment",
+        "valence": -0.58,
+        "arousal": 0.68,
+        "dominance": 0.59
+      },
+      {
+        "speaker": "agent",
+        "text": "What do you think would help you feel better?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I hadn't thought of it that way.",
+        "emotion": "embarrassment",
+        "valence": -0.51,
+        "arousal": 0.59,
+        "dominance": 0.46
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "You're right.",
+        "emotion": "embarrassment",
+        "valence": -0.43,
+        "arousal": 0.51,
+        "dominance": 0.66
+      },
+      {
+        "speaker": "agent",
+        "text": "I hear you. That sounds really difficult.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm trying my best to cope.",
+        "emotion": "embarrassment",
+        "valence": -0.33,
+        "arousal": 0.46,
+        "dominance": 0.46
+      },
+      {
+        "speaker": "agent",
+        "text": "I hear you. That sounds really difficult.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I just needed someone to talk to.",
+        "emotion": "embarrassment",
+        "valence": -0.28,
+        "arousal": 0.38,
+        "dominance": 0.34
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": -0.58,
+    "initial_arousal": 0.68
+  },
+  {
+    "id": "conv_082",
+    "primary_emotion": "relief",
+    "emotion_category": "relief_release",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "My loved one made it through surgery successfully.",
+        "emotion": "relief",
+        "valence": 0.82,
+        "arousal": 0.6,
+        "dominance": 0.63
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "Thank you for listening.",
+        "emotion": "relief",
+        "valence": 0.82,
+        "arousal": 0.51,
+        "dominance": 0.63
+      },
+      {
+        "speaker": "agent",
+        "text": "Can you tell me more about what happened?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "That helps to hear.",
+        "emotion": "relief",
+        "valence": 0.82,
+        "arousal": 0.46,
+        "dominance": 0.65
+      },
+      {
+        "speaker": "agent",
+        "text": "How long have you been feeling like this?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "relief",
+        "valence": 0.82,
+        "arousal": 0.4,
+        "dominance": 0.56
+      },
+      {
+        "speaker": "agent",
+        "text": "I hear you. That sounds really wonderful.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "relief",
+        "valence": 0.82,
+        "arousal": 0.32,
+        "dominance": 0.35
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": 0.82,
+    "initial_arousal": 0.6
+  },
+  {
+    "id": "conv_078",
+    "primary_emotion": "relief",
+    "emotion_category": "relief_release",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "My medical test results came back negative!",
+        "emotion": "relief",
+        "valence": 0.75,
+        "arousal": 0.5,
+        "dominance": 0.62
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I just needed someone to talk to.",
+        "emotion": "relief",
+        "valence": 0.75,
+        "arousal": 0.4,
+        "dominance": 0.59
+      },
+      {
+        "speaker": "agent",
+        "text": "It's okay to feel what you're feeling.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "relief",
+        "valence": 0.75,
+        "arousal": 0.32,
+        "dominance": 0.65
+      },
+      {
+        "speaker": "agent",
+        "text": "It's okay to feel what you're feeling.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "relief",
+        "valence": 0.75,
+        "arousal": 0.23,
+        "dominance": 0.5
+      },
+      {
+        "speaker": "agent",
+        "text": "How long have you been feeling like this?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I hadn't thought of it that way.",
+        "emotion": "relief",
+        "valence": 0.75,
+        "arousal": 0.2,
+        "dominance": 0.66
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": 0.75,
+    "initial_arousal": 0.5
+  },
+  {
+    "id": "conv_089",
+    "primary_emotion": "jealousy",
+    "emotion_category": "jealousy_envy",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "Everyone else seems to have their life together.",
+        "emotion": "jealousy",
+        "valence": -0.52,
+        "arousal": 0.62,
+        "dominance": 0.65
+      },
+      {
+        "speaker": "agent",
+        "text": "What do you think would help you feel better?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "That helps to hear.",
+        "emotion": "jealousy",
+        "valence": -0.47,
+        "arousal": 0.55,
+        "dominance": 0.44
+      },
+      {
+        "speaker": "agent",
+        "text": "I can understand why you'd feel that way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "You're right.",
+        "emotion": "jealousy",
+        "valence": -0.39,
+        "arousal": 0.49,
+        "dominance": 0.69
+      },
+      {
+        "speaker": "agent",
+        "text": "That's completely understandable given the situation.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "jealousy",
+        "valence": -0.32,
+        "arousal": 0.4,
+        "dominance": 0.49
+      }
+    ],
+    "conversation_length": 7,
+    "initial_valence": -0.52,
+    "initial_arousal": 0.62
+  },
+  {
+    "id": "conv_086",
+    "primary_emotion": "jealousy",
+    "emotion_category": "jealousy_envy",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "Everyone I know is getting engaged except me.",
+        "emotion": "jealousy",
+        "valence": -0.55,
+        "arousal": 0.65,
+        "dominance": 0.56
+      },
+      {
+        "speaker": "agent",
+        "text": "What do you think would help you feel better?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "You're right.",
+        "emotion": "jealousy",
+        "valence": -0.44,
+        "arousal": 0.59,
+        "dominance": 0.51
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for sharing that with me. Your feelings are valid.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "jealousy",
+        "valence": -0.39,
+        "arousal": 0.5,
+        "dominance": 0.51
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "jealousy",
+        "valence": -0.31,
+        "arousal": 0.42,
+        "dominance": 0.46
+      }
+    ],
+    "conversation_length": 7,
+    "initial_valence": -0.55,
+    "initial_arousal": 0.65
+  },
+  {
+    "id": "conv_097",
+    "primary_emotion": "hope",
+    "emotion_category": "hope_optimism",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I got a callback for the job! There's hope!",
+        "emotion": "hope",
+        "valence": 0.69,
+        "arousal": 0.59,
+        "dominance": 0.32
+      },
+      {
+        "speaker": "agent",
+        "text": "I hear you. That sounds really wonderful.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I hadn't thought of it that way.",
+        "emotion": "hope",
+        "valence": 0.69,
+        "arousal": 0.52,
+        "dominance": 0.66
+      },
+      {
+        "speaker": "agent",
+        "text": "It's okay to feel what you're feeling.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "hope",
+        "valence": 0.69,
+        "arousal": 0.46,
+        "dominance": 0.63
+      },
+      {
+        "speaker": "agent",
+        "text": "I can understand why you'd feel that way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "hope",
+        "valence": 0.69,
+        "arousal": 0.37,
+        "dominance": 0.48
+      },
+      {
+        "speaker": "agent",
+        "text": "I can understand why you'd feel that way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I just needed someone to talk to.",
+        "emotion": "hope",
+        "valence": 0.69,
+        "arousal": 0.3,
+        "dominance": 0.49
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": 0.69,
+    "initial_arousal": 0.59
+  },
+  {
+    "id": "conv_098",
+    "primary_emotion": "hope",
+    "emotion_category": "hope_optimism",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I'm starting to feel like myself again after the depression.",
+        "emotion": "hope",
+        "valence": 0.73,
+        "arousal": 0.63,
+        "dominance": 0.6
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm taking it one day at a time.",
+        "emotion": "hope",
+        "valence": 0.73,
+        "arousal": 0.55,
+        "dominance": 0.5
+      },
+      {
+        "speaker": "agent",
+        "text": "I can understand why you'd feel that way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm taking it one day at a time.",
+        "emotion": "hope",
+        "valence": 0.73,
+        "arousal": 0.46,
+        "dominance": 0.37
+      },
+      {
+        "speaker": "agent",
+        "text": "I can understand why you'd feel that way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "hope",
+        "valence": 0.73,
+        "arousal": 0.4,
+        "dominance": 0.63
+      },
+      {
+        "speaker": "agent",
+        "text": "I can understand why you'd feel that way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "hope",
+        "valence": 0.73,
+        "arousal": 0.34,
+        "dominance": 0.47
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": 0.73,
+    "initial_arousal": 0.63
+  },
+  {
+    "id": "conv_104",
+    "primary_emotion": "frustration",
+    "emotion_category": "frustration_irritation",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I've been trying to reach someone all day with no response.",
+        "emotion": "frustration",
+        "valence": -0.66,
+        "arousal": 0.71,
+        "dominance": 0.58
+      },
+      {
+        "speaker": "agent",
+        "text": "Can you tell me more about what happened?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "frustration",
+        "valence": -0.57,
+        "arousal": 0.62,
+        "dominance": 0.69
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's been on my mind constantly.",
+        "emotion": "frustration",
+        "valence": -0.52,
+        "arousal": 0.54,
+        "dominance": 0.35
+      },
+      {
+        "speaker": "agent",
+        "text": "You're not alone in feeling this way.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm trying my best to cope.",
+        "emotion": "frustration",
+        "valence": -0.43,
+        "arousal": 0.46,
+        "dominance": 0.64
+      },
+      {
+        "speaker": "agent",
+        "text": "How long have you been feeling like this?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "It's hard to know what to do.",
+        "emotion": "frustration",
+        "valence": -0.36,
+        "arousal": 0.4,
+        "dominance": 0.66
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": -0.66,
+    "initial_arousal": 0.71
+  },
+  {
+    "id": "conv_103",
+    "primary_emotion": "frustration",
+    "emotion_category": "frustration_irritation",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "Nothing is working today. Everything is going wrong.",
+        "emotion": "frustration",
+        "valence": -0.69,
+        "arousal": 0.74,
+        "dominance": 0.39
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for sharing that with me. Your feelings are valid.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I'm trying my best to cope.",
+        "emotion": "frustration",
+        "valence": -0.62,
+        "arousal": 0.66,
+        "dominance": 0.37
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for sharing that with me. Your feelings are valid.",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "Thank you for listening.",
+        "emotion": "frustration",
+        "valence": -0.51,
+        "arousal": 0.57,
+        "dominance": 0.62
+      },
+      {
+        "speaker": "agent",
+        "text": "What do you think would help you feel better?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "I hadn't thought of it that way.",
+        "emotion": "frustration",
+        "valence": -0.4,
+        "arousal": 0.51,
+        "dominance": 0.63
+      },
+      {
+        "speaker": "agent",
+        "text": "What do you think would help you feel better?",
+        "response_type": "empathetic"
+      },
+      {
+        "speaker": "user",
+        "text": "That helps to hear.",
+        "emotion": "frustration",
+        "valence": -0.29,
+        "arousal": 0.45,
+        "dominance": 0.61
+      }
+    ],
+    "conversation_length": 9,
+    "initial_valence": -0.69,
+    "initial_arousal": 0.74
+  }
+]
