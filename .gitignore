@@ -17,7 +17,6 @@ logs/
 
 # Data
 experiments/data/
-results/
 
 # Environment
 .env

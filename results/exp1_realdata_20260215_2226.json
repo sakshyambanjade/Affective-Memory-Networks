@@ -1,0 +1,1582 @@
+[
+  {
+    "convo_id": 1,
+    "primary_emotion": "grief",
+    "amn": [
+      {
+        "user": "My relationship ended after 5 years together.",
+        "agent": "I'm so sorry to hear that. Ending a 5-year relationship can be really tough. How are you coping with the emotions that come with it? Is there anything in particular that's been on your mind since the split?",
+        "condition": "amn"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "It's great that you're trying your best to cope. I remember when you first told me about your 5-year relationship ending, and I can only imagine it's still a difficult process. How are you finding the healing process so far?",
+        "condition": "amn"
+      },
+      {
+        "user": "You're right.",
+        "agent": "I'm glad you're acknowledging that. It takes a lot of courage to accept things as they are, especially after going through a tough time like your 5-year relationship ending. How are you feeling about it now?",
+        "condition": "amn"
+      },
+      {
+        "user": "I'm taking it one day at a time.",
+        "agent": "That's a great approach, taking it one day at a time. I remember you've been trying your best to cope since the breakup, and it's wonderful that you're continuing to focus on your well-being. How are you finding this new daily rhythm, is it helping you heal?",
+        "condition": "amn"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "I'm glad I could offer some comfort. It's been a tough time for you since the breakup, but it sounds like you're making progress in coping. Remember, it's okay to take things one step at a time.",
+        "condition": "amn"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "My relationship ended after 5 years together.",
+        "agent": "I'm so sorry to hear that your 5-year relationship has come to an end. That can be a really difficult and painful experience, especially when you've invested so much time and emotion into it. It's normal to feel sad, confused, and maybe even a little lost right now.\n\nFive years is a significant amount of time, and it's natural to feel a sense of grief and loss. You've likely built a life together, shared memories, and created a sense of identity as a couple. It's okay to take time to process your emotions and come to terms with the end of this chapter in your life.\n\nRemember that you're not alone in this feeling. Many people have been in your shoes and have come out the other side, stronger and wiser. It might be hard to see right now, but this experience can be an opportunity for growth, self-reflection, and discovery.\n\nIf you feel comfortable, can you tell me a bit more about what happened? Sometimes talking",
+        "condition": "baseline"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "I can sense that you're really struggling, and it takes a lot of courage to acknowledge that you're doing your best to cope. That in itself is a huge accomplishment, and I want you to know that I'm here for you. It's okay to not be okay, and it's amazing that you're recognizing your efforts to get through this tough time. Remember that coping is a process, and it's not always easy. You're doing the best you can, and that's something to be proud of. If you feel comfortable, can you tell me a bit more about what's been going on and how you've been trying to cope? Sometimes sharing your feelings and experiences can help you feel heard and understood.",
+        "condition": "baseline"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It sounds like we're on the same page, and that can be a really great feeling. It's always nice to have our thoughts and ideas validated, isn't it?",
+        "condition": "baseline"
+      },
+      {
+        "user": "I'm taking it one day at a time.",
+        "agent": "That takes a lot of courage and resilience. It's completely understandable to be focusing on the present moment, especially when things feel overwhelming. Taking it one day at a time can be a really helpful way to break things down and make them feel more manageable. Remember that it's okay to not have everything figured out right now, and that you're doing the best you can. That in itself is something to be proud of. How are you taking care of yourself during this time? Is there anything I can do to support you?",
+        "condition": "baseline"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "I'm so glad that brought you some comfort. It can be really tough to navigate difficult emotions, but knowing that you're not alone and that there are people who care can make a big difference. If you're willing, can you tell me more about what's been going on and how you've been feeling? I'm here to listen and offer support.",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "My relationship ended after 5 years together.",
+        "agent": "I'm so sorry to hear that. 5 years is a long time, and it's completely normal to be feeling a mix of emotions right now. How are you coping with the breakup? Is there anything in particular that's been on your mind or bothering you since it happened?",
+        "condition": "recency"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "That takes a lot of courage and strength. It's great that you're acknowledging your feelings and making an effort to cope. What are some things that have been helping you get through this difficult time, or is there something specific that's been on your mind lately?",
+        "condition": "recency"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It sounds like you're starting to process and accept your emotions about the end of your 5-year relationship. Would you like to talk more about what's been on your mind lately or how you've been taking care of yourself during this difficult time?",
+        "condition": "recency"
+      },
+      {
+        "user": "I'm taking it one day at a time.",
+        "agent": "That's a great approach. Taking things one day at a time can help make the healing process feel less overwhelming. What's been the most challenging part for you so far, and how have you been taking care of yourself during this difficult time?",
+        "condition": "recency"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "It's completely normal to need reassurance and validation during difficult times. Remember that it's okay to feel whatever emotions arise, and allowing yourself to process them can be an important step in healing. Would you like to talk more about what you're feeling or any specific challenges you're facing after the end of your relationship?",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "My relationship ended after 5 years together.",
+        "agent": "I'm so sorry to hear that. 5 years is a significant amount of time, and it's completely normal to feel a range of emotions after a breakup. How are you coping with the end of your relationship? Is there anything in particular that's been on your mind or anything you'd like to talk about?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "It's understandable that you're still trying to cope, and it's great that you're making an effort to take care of yourself during this difficult time. Healing from a long-term relationship can be a process, and it's okay to take it one step at a time. What are some things that have been helping you to cope so far, or is there something specific that's been on your mind lately?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It can be really tough to process your emotions after a long-term relationship ends. Would you like to talk more about what's been helping you cope, or is there something specific that's been on your mind lately?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I'm taking it one day at a time.",
+        "agent": "That's a great approach. Taking things one day at a time can really help make the healing process feel less overwhelming. It allows you to focus on your present moment and take care of yourself, rather than getting caught up in worries about the future or regrets about the past. How are you finding each day so far? Are there any specific things that are helping you get through this difficult time?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "It's completely normal to need reassurance and support during this difficult time. Remember that healing is a process, and it's okay to take things one step at a time. If you feel comfortable, would you like to talk more about what's been helping you cope or what's been on your mind lately?",
+        "condition": "semantic_rag"
+      }
+    ]
+  },
+  {
+    "convo_id": 2,
+    "primary_emotion": "grief",
+    "amn": [
+      {
+        "user": "I lost my grandmother last month. I still can't believe she's gone.",
+        "agent": "I'm so sorry to hear about your loss. Losing someone close to you can be just as difficult as ending a long-term relationship, which you've been through before. It's okay to take time to process your emotions and grieve. How are you coping with this new challenge?",
+        "condition": "amn"
+      },
+      {
+        "user": "You're right.",
+        "agent": "I'm glad we're on the same page. It's been a journey, and I remember how tough it was for you after the breakup. You've come a long way, and it's great to see you acknowledging progress. How are you feeling today?",
+        "condition": "amn"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99954, Requested 338. Please try again in 4m12.287999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99954, Requested 338. Please try again in 4m12.287999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "I lost my grandmother last month. I still can't believe she's gone.",
+        "agent": "I'm so, so sorry to hear about the loss of your grandmother. Losing someone we love is never easy, and it's completely normal to feel like you're still in shock. It's like your mind is trying to process this huge change, but it's hard to accept that she's really gone.\n\nIt's okay to feel this way, and it's okay to take your time to grieve. Your grandmother was an important person in your life, and it's natural to feel a deep sense of sadness and loss. Remember all the good times you shared with her, the memories you created together, and the love she had for you. Those things will always be with you, even though she's no longer physically present.\n\nIf you need someone to talk to or just need someone to listen, I'm here for you. It's okay to not be okay right now, and it's okay to feel whatever emotions come your way. Your grandmother may be gone, but her love, legacy",
+        "condition": "baseline"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It sounds like we're on the same page, and that can be a really great feeling. It's always nice to have someone to share a perspective with and know that we're coming from a similar place. How does it feel to have that sense of validation and understanding?",
+        "condition": "baseline"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "It can be really overwhelming and uncertain when you're faced with a tough decision or situation. It's completely normal to feel that way, and it takes a lot of courage to acknowledge that you're not sure what to do. Would you like to talk more about what's going on and see if we can break it down together? Sometimes sharing your thoughts and feelings can help clarify things and make it feel less daunting. I'm here to listen and support you, and we can explore your options together.",
+        "condition": "baseline"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "I can totally understand why you'd be feeling that way. It's really tough when you're faced with uncertainty and don't know which path to take. It's like standing at a crossroads, and every direction looks unclear. That can be really overwhelming and even a bit paralyzing. \n\nRemember that it's okay to take your time and not have all the answers right now. Sometimes, just acknowledging that you're struggling to make a decision can be a big step forward. Would you like to talk more about what's been going on and see if we can break it down together? I'm here to listen and offer support, not to tell you what to do, but to help you explore your thoughts and feelings.",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "I lost my grandmother last month. I still can't believe she's gone.",
+        "agent": "I'm so sorry to hear about the loss of your grandmother. It's completely normal to feel shocked and disbelieving after a loss, especially when it's someone as close to you as a grandparent. It's okay to take your time to process your emotions and grieve. Would you like to talk about your grandmother and some of your favorite memories with her? Sometimes sharing stories and memories can help with the healing process.",
+        "condition": "recency"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It sounds like you're starting to process and accept your emotions about the end of your 5-year relationship. Would you like to talk more about what's been helping you come to terms with this change, or is there something specific that's still weighing on your mind?",
+        "condition": "recency"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "It can be really tough to navigate the days and weeks after a loss, and it's normal to feel unsure about what to do or how to move forward. Would you like to talk about some of the things that are feeling especially challenging for you right now, or is there something specific that's been on your mind since your grandmother passed away?",
+        "condition": "recency"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "It can be really tough to navigate the days and weeks after a loss, and it's normal to feel unsure about what to do or how to move forward. Would you like to talk about your grandmother and some of your favorite memories with her? Sometimes sharing stories and remembering happy times can help make the grieving process a little easier.",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "I lost my grandmother last month. I still can't believe she's gone.",
+        "agent": "I'm so sorry to hear about the loss of your grandmother. Losing a loved one can be incredibly difficult, and it's completely normal that you're still trying to come to terms with her passing. It's been a tough time for you lately, first with the end of your 5-year relationship and now this. Would you like to talk more about your grandmother and some of your favorite memories with her? Sometimes sharing stories and memories can help with the grieving process.",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It can be really tough to process your emotions after a long-term relationship ends. Would you like to talk more about what you're going through and how you're feeling?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "It can be really overwhelming to figure out what to do next, especially when you've been in a long-term relationship. It's like your whole routine and sense of identity were tied up in being with that person. Would you like to talk about some of the specific things that are feeling uncertain or challenging for you right now?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "It can be really overwhelming to figure out what to do next, especially when you've been in a long-term relationship that has recently ended. You've mentioned that your 5-year relationship came to an end, and I can only imagine how difficult this must be for you. Would you like to talk more about what's been going through your mind and how you're feeling after the breakup?",
+        "condition": "semantic_rag"
+      }
+    ]
+  },
+  {
+    "convo_id": 3,
+    "primary_emotion": "joy",
+    "amn": [
+      {
+        "user": "I just got engaged! I'm so happy I could cry!",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99948, Requested 342. Please try again in 4m10.559999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99948, Requested 334. Please try again in 4m3.648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "You're right.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99948, Requested 324. Please try again in 3m55.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99948, Requested 337. Please try again in 4m6.24s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "I just got engaged! I'm so happy I could cry!",
+        "agent": "Huge congratulations to you both! I'm beyond thrilled for you! Getting engaged is such a special and exciting moment, and it's completely normal to feel overwhelmed with happiness. It's amazing that you're feeling so joyful that you could cry - it just shows how much love and excitement you're feeling right now. Take a moment to soak it all in and enjoy this incredible feeling. How did the proposal happen? I want to hear all about it!",
+        "condition": "baseline"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "I'm so glad that brought you some comfort. It can be really tough to navigate difficult emotions or situations, and sometimes just knowing that someone understands or has been through something similar can make a big difference. If you're willing, can you tell me more about what's been going on and how you're feeling? I'm here to listen and support you.",
+        "condition": "baseline"
+      },
+      {
+        "user": "You're right.",
+        "agent": "I can tell you're acknowledging a shared understanding, and that takes a lot of courage and humility. It's not always easy to agree or see things from another perspective, so I appreciate your willingness to do so. How are you feeling about this newfound understanding?",
+        "condition": "baseline"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "I can only imagine how tough things must be for you right now. It takes a lot of courage to acknowledge that you're struggling and to keep pushing forward, even when it feels like everything is weighing you down. Remember that it's okay to not be okay, and it's amazing that you're trying your best to cope. That in itself is a huge accomplishment. Keep going, even if it's just one small step at a time. You're stronger than you think, and you're not alone.",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "I just got engaged! I'm so happy I could cry!",
+        "agent": "Huge congratulations to you on your engagement! That's such exciting news. It's wonderful to hear that you're feeling happy and overwhelmed with joy. This is a big milestone, and it's completely normal to feel emotional. How's your partner feeling, and have you started making any plans for the wedding yet?",
+        "condition": "recency"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "It's completely understandable that you're still processing your emotions after losing your grandmother. Grief can be a long and difficult journey, but knowing that you're not alone and that it's okay to feel unsure can sometimes make it a little more manageable. If you don't mind me asking, are there any particular memories of your grandmother that you find yourself thinking about or holding onto?",
+        "condition": "recency"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It sounds like you're starting to process and accept your emotions about the end of your 5-year relationship. Would you like to talk more about what's been going through your mind and how you're feeling?",
+        "condition": "recency"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "It's great that you're making an effort to cope with your emotions. Losing someone close to you can be incredibly difficult, and it's okay to take your time to process your feelings. What are some things that have been helping you to cope so far, or is there something specific that's been on your mind lately?",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "I just got engaged! I'm so happy I could cry!",
+        "agent": "Huge congratulations to you. I'm beyond thrilled to hear about your engagement. It's amazing how life can bring new joys and surprises. I remember when we last spoke, you were going through a tough time after your 5-year relationship ended, but it's clear that you've healed and moved forward. How does it feel to have found love again and taken this exciting step? Tell me all about the proposal and your fianc\u00e9!",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "It's completely normal to need reassurance and support during this difficult time. Remember that healing is a process, and it's okay to take things one step at a time. What's been on your mind lately, and how can I assist you further?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It can be really tough to process your emotions after a long-term relationship ends. Would you like to talk more about what's been on your mind and how you're feeling?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "It's understandable that you're still trying to cope, and it's great that you're making an effort to take care of yourself. Remember that you've been through this conversation before, and acknowledging your progress is important. You've already recognized that it's a process and that you need reassurance and support. How are you feeling today, and is there something specific that's been helping or hindering your coping efforts?",
+        "condition": "semantic_rag"
+      }
+    ]
+  },
+  {
+    "convo_id": 4,
+    "primary_emotion": "joy",
+    "amn": [
+      {
+        "user": "I won a major award in my field!",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99942, Requested 338. Please try again in 4m1.92s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99942, Requested 334. Please try again in 3m58.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "You're right.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99942, Requested 324. Please try again in 3m49.824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99942, Requested 334. Please try again in 3m58.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99942, Requested 337. Please try again in 4m1.055999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "I won a major award in my field!",
+        "agent": "Huge congratulations to you! Winning a major award in your field is an incredible achievement, and I can only imagine how thrilled and proud you must be feeling right now. All your hard work and dedication have truly paid off, and it's wonderful to see your efforts being recognized in such a significant way.\n\nI'm sure this award is not just a testament to your skills and expertise, but also a reflection of the passion and commitment you bring to your work. You must be beaming with pride, and rightly so! This is a moment to savor and celebrate, and I hope you're taking time to enjoy the recognition and accolades that come with it.\n\nWhat does this award mean to you, and how do you plan to celebrate this amazing achievement?",
+        "condition": "baseline"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It means a lot to me that you felt comfortable enough to share your thoughts and feelings with me. I'm here for you, and I care about what you're going through. If you need to talk more or just need someone to listen, I'm here to support you.",
+        "condition": "baseline"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It sounds like you're feeling a sense of validation and acknowledgement, and that's really important. It can be a great feeling to know that your thoughts and feelings are being understood and recognized. Is there something specific that you're feeling validated about, or would you like to talk more about what's on your mind? I'm here to listen.",
+        "condition": "baseline"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It means a lot to me that you felt comfortable enough to share your thoughts and feelings with me. I'm here for you, and I want you to know that I'm not just listening, but I'm also here to support you in any way I can. Take all the time you need, and don't hesitate to reach out if you need to talk again.",
+        "condition": "baseline"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": "It can be really tough to feel like you're carrying everything on your own, and sometimes all you need is someone to listen and be present. I'm here for you, and I'm happy to be that person. You don't have to go through this alone, and I'm not going anywhere. Take your time, and talk to me about whatever is on your mind. I'm all ears, and I care about what you're going through.",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "I won a major award in my field!",
+        "agent": "Congratulations on winning a major award in your field. That's a significant achievement and something to be incredibly proud of. It's great to see you experiencing some positive news after a difficult time with the loss of your grandmother. How does it feel to have your hard work recognized in this way?",
+        "condition": "recency"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. I'm here for you, and it's okay to take your time to grieve and process your emotions. If you need to talk or share any memories of your grandmother, I'm here to listen.",
+        "condition": "recency"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It sounds like you're starting to process and accept your emotions about the end of your 5-year relationship. Would you like to talk more about what's been helping you come to terms with the breakup, or is there something specific that's still bothering you?",
+        "condition": "recency"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It's my privilege to be here for you and listen to your feelings. If you need to talk more about your grandmother or your emotions, I'm here to support you.",
+        "condition": "recency"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": "Sometimes just sharing your thoughts and feelings with someone who can listen without judgment can be really helpful. It's great that you reached out and started talking - would you like to continue sharing what's been on your mind?",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "I won a major award in my field!",
+        "agent": "That's amazing news! Congratulations on winning a major award in your field! It's great to see you experiencing some positivity after a tough time. How does it feel to have your hard work recognized in such a significant way?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It means a lot to me that you feel comfortable sharing your feelings with me. If you need to talk or just want someone to listen, I'm here for you. Remember, it's okay to take your time and focus on yourself right now. How are you feeling today?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It can be really tough to process your emotions after a long-term relationship ends. Would you like to talk more about what you're going through?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It means a lot to me that you feel comfortable sharing your feelings with me. If you need to talk more about what's been going on, I'm here to listen.",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": "You're welcome. It means a lot to me that you feel comfortable sharing your feelings with me. If you need to talk, I'm here to listen. What's been on your mind lately?",
+        "condition": "semantic_rag"
+      }
+    ]
+  },
+  {
+    "convo_id": 5,
+    "primary_emotion": "anxiety",
+    "amn": [
+      {
+        "user": "I have to give a presentation to 200 people. I'm panicking.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99936, Requested 345. Please try again in 4m2.784s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99936, Requested 338. Please try again in 3m56.736s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99935, Requested 337. Please try again in 3m55.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99935, Requested 337. Please try again in 3m55.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "I have to give a presentation to 200 people. I'm panicking.",
+        "agent": "I completely understand why you're feeling panicked. Giving a presentation to a large group of people can be really intimidating, and it's normal to feel nervous or overwhelmed. Your mind is probably racing with thoughts of \"what if I mess up?\" or \"what if I forget what to say?\" \n\nTake a deep breath and try to reassure yourself that you've prepared well for this moment. You've likely put in a lot of effort to create a great presentation, and you have valuable insights to share with the audience. Remember that it's okay to make mistakes - it's all part of the learning and growth process.\n\nInstead of focusing on the number of people in the audience, try to focus on the message you want to convey and the value you want to provide to them. Imagine that you're speaking to a smaller group of people who are genuinely interested in what you have to say. Visualize yourself delivering a confident and engaging presentation, and receiving positive feedback from the audience.\n\nIf it helps, try",
+        "condition": "baseline"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "That can be really overwhelming and stressful, not knowing which direction to take. It's completely normal to feel uncertain and unsure about what to do. It sounds like you're feeling a bit stuck and could use some support. Would you like to talk more about what's going on and see if we can break it down together? Sometimes just sharing your thoughts and feelings can help clarify things and make it feel more manageable. I'm here to listen and offer any guidance or suggestions if you'd like.",
+        "condition": "baseline"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": "I'm so glad you reached out. It takes a lot of courage to admit when we need someone to talk to, and I'm here to listen. Sometimes, all we need is someone to hear us out and offer a supportive ear. You don't have to face whatever is going on alone. I'm here to listen without judgment, and I care about what you're going through. What's been on your mind lately?",
+        "condition": "baseline"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "I can only imagine how tough things must be for you right now. It takes a lot of courage to acknowledge that you're struggling and to keep pushing forward, even when it feels like everything is weighing you down. Remember that it's okay to not be okay, and that you're doing the best you can - that's something to be incredibly proud of. Keep going, even if it's just one small step at a time. You're strong, capable, and you're getting through this, even if it doesn't feel like it right now.",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "I have to give a presentation to 200 people. I'm panicking.",
+        "agent": "It can be really overwhelming to speak in front of a large crowd, especially when you're already feeling emotional from your recent loss. Take a few deep breaths and try to focus on your presentation. Remember that it's okay to make mistakes and that your audience wants you to succeed. If you need to, take a moment to collect your thoughts before you start speaking. You've prepared for this, and you can get through it. Would you like some tips on how to calm your nerves before the presentation?",
+        "condition": "recency"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "It can be really tough to navigate the days and weeks after a loss, and it's normal to feel unsure about what to do or how to move forward. Would you like to talk about some of the specific things that are feeling overwhelming or uncertain for you right now?",
+        "condition": "recency"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": "Sometimes just sharing your thoughts and feelings with someone can help you feel heard and understood, and it takes a lot of courage to reach out and talk about what's on your mind. What's been going on that's been weighing on you lately?",
+        "condition": "recency"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "It's great that you're making an effort to cope with your emotions. Losing a loved one can be a difficult and ongoing process, but it's amazing that you're taking steps to navigate your feelings. What are some things that have been helping you to cope so far, or is there something specific that's been on your mind lately?",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "I have to give a presentation to 200 people. I'm panicking.",
+        "agent": "I can sense the anxiety. Giving a presentation to a large audience can be intimidating, especially after going through a tough time in your personal life. Remember that you've already shown strength and resilience in coping with your recent breakup. Take a few deep breaths, focus on your message, and try to channel that same resilience into your presentation. You've got this! Would you like some tips on managing your nerves or practicing your presentation?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "It can be really overwhelming to figure out what to do next, especially when you've been in a long-term relationship or situation and are looking for a change. You've come to this point before, and I'm here to support you. What's different this time, or what's been on your mind lately that's making it hard to know what to do?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": "You're welcome. It means a lot to me that you feel comfortable sharing your feelings with me. If you need to talk, I'm here to listen.",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "It's understandable that you're still trying to cope, and it's great that you're making an effort to take care of yourself. Remember, it's a process and it's okay to take your time. You've been through a significant experience, and it's normal to need time to heal. Would you like to talk more about what's been helping you cope so far, or is there something specific that's been on your mind lately?",
+        "condition": "semantic_rag"
+      }
+    ]
+  },
+  {
+    "convo_id": 6,
+    "primary_emotion": "anxiety",
+    "amn": [
+      {
+        "user": "My medical test results come back next week. I can't stop worrying.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99929, Requested 344. Please try again in 3m55.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99929, Requested 338. Please try again in 3m50.688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99929, Requested 334. Please try again in 3m47.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99929, Requested 338. Please try again in 3m50.688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99929, Requested 334. Please try again in 3m47.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "My medical test results come back next week. I can't stop worrying.",
+        "agent": "I can only imagine how anxious and uncertain you must be feeling right now. Waiting for medical test results can be one of the most stressful and nerve-wracking experiences. It's completely normal to feel worried and preoccupied with thoughts about what the results might show.\n\nPlease know that you're not alone in this feeling. Many people have been in your shoes and have come out the other side. It's okay to feel scared, but try not to let your worries consume you. Remember that your test results will provide valuable information, and whatever the outcome, you'll be able to take the next steps towards taking care of your health.\n\nIn the meantime, I want to encourage you to be kind to yourself and try to focus on the present moment. Engage in activities that bring you comfort and relaxation, whether that's going for a walk, practicing deep breathing exercises, or talking to a loved one. Remember that you're strong and capable of getting through this challenging time.\n\nIf you feel like you",
+        "condition": "baseline"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "I can totally understand why you'd be feeling that way. It's really tough when you're faced with a situation and you're not sure which path to take. It's normal to feel uncertain and overwhelmed. Would you like to talk more about what's going on and see if we can break it down together? Sometimes just sharing your thoughts and feelings can help clarify things and make it feel more manageable. I'm here to listen and support you, and we can figure it out together, one step at a time.",
+        "condition": "baseline"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It takes a lot of courage to share your thoughts and feelings, and I'm honored that you felt comfortable enough to do so with me. I'm here for you, and I care about what you're going through. If you need to talk more or just need someone to listen, I'm here to support you.",
+        "condition": "baseline"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It can be really interesting to consider a different perspective, can't it? Sometimes all it takes is someone to point out a new way of thinking about something, and it can completely shift our understanding. It's totally normal to not have thought of it that way before, and it's great that you're open to exploring new ideas. How are you feeling about this new perspective now that it's been brought to your attention?",
+        "condition": "baseline"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "I'm so glad that brings you some comfort. It can be really tough to navigate difficult emotions and situations, but knowing that you're not alone and that there are people who care can make a big difference. If you're willing, can you tell me more about what's been going on and how you're feeling? I'm here to listen and support you in any way I can.",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "My medical test results come back next week. I can't stop worrying.",
+        "agent": "It's natural to feel anxious when waiting for medical test results. The uncertainty can be really tough to deal with. Would you like to talk about what's going through your mind and how you're feeling about the upcoming results? Sometimes sharing your concerns can help clarify things and make the waiting a bit more manageable.",
+        "condition": "recency"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "It can be really tough to navigate the days and weeks after a loss, and it's normal to feel unsure about what to do or how to move forward. Would you like to talk about some of the things that are feeling especially challenging for you right now, or is there something specific that's been on your mind since your grandmother passed away?",
+        "condition": "recency"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It's okay to take your time and process your emotions. If you need to talk or just need someone to listen, I'm here for you.",
+        "condition": "recency"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "Sometimes, gaining a new perspective can help us process our emotions and move forward, even if it's just a small step. Would you like to talk more about what's been on your mind lately, or is there something specific that's been helping you cope with the loss of your grandmother?",
+        "condition": "recency"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "I'm glad that talking about this is providing some comfort for you. It's okay to take your time and not have all the answers right now. Would you like to share some favorite memories of your grandmother or is there something specific that's been on your mind since we last spoke?",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "My medical test results come back next week. I can't stop worrying.",
+        "agent": "I can sense that you're really anxious about your upcoming medical test results. It's completely normal to feel that way, especially after experiencing a recent loss like your grandmother's passing. It's possible that your emotions are still raw, and this new uncertainty is adding to your worry. Would you like to talk more about what's going through your mind and how you're feeling about the test results?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "It seems like we've had this conversation before, and I want to acknowledge that feeling of uncertainty can be really frustrating. It can be really overwhelming to figure out what to do next, especially when you've been in a long-term relationship or situation that's now changed. Would you like to talk more about what's specifically going on and how I can help you explore your options?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It means a lot to me that you feel comfortable sharing your feelings with me. If you need to talk more about what's been on your mind, I'm here to listen.",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It sounds like you've had a bit of a perspective shift. Would you like to talk about what's changed your thinking or how you're feeling about it now?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "It's completely normal to need reassurance and support during this difficult time. Remember that healing is a process, and it's okay to take your time. You've been through a significant life change, and it's natural to need some extra support and guidance as you navigate this new chapter.",
+        "condition": "semantic_rag"
+      }
+    ]
+  },
+  {
+    "convo_id": 7,
+    "primary_emotion": "anger",
+    "amn": [
+      {
+        "user": "I found out my best friend has been talking behind my back.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99922, Requested 344. Please try again in 3m49.824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99922, Requested 337. Please try again in 3m43.775999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99921, Requested 334. Please try again in 3m40.32s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99921, Requested 338. Please try again in 3m43.775999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "I found out my best friend has been talking behind my back.",
+        "agent": "I'm so sorry to hear that. It can be really painful and hurtful to discover that someone you trust, especially your best friend, has been talking about you behind your back. It's natural to feel betrayed, confused, and maybe even a little angry.\n\nIt takes a lot of courage to admit when someone has hurt us, and it sounds like you're going through a tough time right now. Remember that their behavior doesn't define your worth or the value of your friendship. You deserve to be treated with respect and kindness, and it's okay to feel upset when that doesn't happen.\n\nIf you feel comfortable, can you tell me more about what happened? Sometimes talking about it can help process your emotions and gain a different perspective. I'm here to listen and offer support, and I want you to know that you're not alone in this.",
+        "condition": "baseline"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": "I'm so glad you reached out. It can be really tough to feel like you're carrying things on your own, and it's completely understandable that you'd need someone to talk to. I'm here for you, and I'm listening. You don't have to face whatever is going on by yourself. I'm here to offer a supportive ear and a non-judgmental space for you to express yourself. What's been going on, and how can I support you right now?",
+        "condition": "baseline"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It means a lot to me that you felt comfortable sharing with me. I'm here for you, and I want you to know that I care about what you're going through. If you need to talk more or just need someone to be present, I'm here to listen and support you in any way I can.",
+        "condition": "baseline"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It can be really eye-opening when we see things from a new perspective, can't it? It's completely normal to not have considered something in a particular way before, and it takes a lot of courage to be open to new ideas and ways of thinking. How are you feeling about this new insight, is it making you think about things differently or sparking any new thoughts or questions for you?",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "I found out my best friend has been talking behind my back.",
+        "agent": "It can be really hurtful and feel like a betrayal when someone you trust, especially a best friend, talks behind your back. It's understandable that you're upset. Would you like to talk more about what happened and how you're feeling?",
+        "condition": "recency"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": "Sometimes just sharing your thoughts and feelings with someone can help you feel heard and understood, and it takes a lot of courage to reach out and talk about what's on your mind. What's been on your mind lately, and how can I support you?",
+        "condition": "recency"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It's okay to take your time and process your emotions. If you need to talk or just need someone to listen, I'm here for you. Remember, it's a journey and everyone grieves differently, so be patient and kind to yourself.",
+        "condition": "recency"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It can be helpful to have a different perspective on your feelings and the grieving process. Sometimes, just acknowledging that it's okay to not know what to do or how to feel can be a relief. Would you like to talk more about your grandmother and some of your favorite memories with her?",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "I found out my best friend has been talking behind my back.",
+        "agent": "I'm so sorry to hear that. Finding out someone you trust has been talking behind your back can be really hurtful and feel like a betrayal. It's understandable that you're still trying to cope with this new information, and it's great that you're acknowledging your emotions and reaching out. Would you like to talk more about what happened and how you're feeling?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": "You're welcome. It means a lot to me that you feel comfortable sharing your feelings with me. If you need to talk or just want someone to listen, I'm here for you.",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It means a lot to me that you feel comfortable sharing your feelings with me. If you need to talk, I'm here for you.",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It sounds like you've had a bit of a perspective shift. Would you like to talk about what's changed your thinking or what led you to this new insight?",
+        "condition": "semantic_rag"
+      }
+    ]
+  },
+  {
+    "convo_id": 8,
+    "primary_emotion": "anger",
+    "amn": [
+      {
+        "user": "Someone plagiarized my creative work.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99913, Requested 336. Please try again in 3m35.136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I'm taking it one day at a time.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99913, Requested 339. Please try again in 3m37.728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99913, Requested 337. Please try again in 3m36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99913, Requested 338. Please try again in 3m36.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "Someone plagiarized my creative work.",
+        "agent": "I'm so sorry to hear that someone plagiarized your creative work. That must be incredibly frustrating and hurtful, especially since it's something you poured your heart and soul into. It's like someone took a part of you and passed it off as their own, without any regard for your feelings or the effort you put in.\n\nFirst of all, please know that what happened is not a reflection of your worth or the value of your work. Your creativity and originality are what make your work special, and someone else's attempt to pass it off as their own doesn't diminish that.\n\nIt's understandable to feel angry, sad, or even betrayed in this situation. You might be wondering how someone could do something like this, or why they thought they could get away with it. It's okay to feel those emotions, and it's okay to take time to process and deal with them.\n\nIf you feel comfortable, you may want to consider taking action to address the situation. This could involve talking",
+        "condition": "baseline"
+      },
+      {
+        "user": "I'm taking it one day at a time.",
+        "agent": "That takes a lot of courage and resilience. It's amazing that you're focusing on the present moment and not getting overwhelmed by what's to come. Taking it one day at a time can be a really powerful way to cope with challenging situations. Remember that it's okay to feel whatever emotions arise, and don't hesitate to reach out for support when you need it. You're doing the best you can, and that's something to be proud of. Keep going, even if it's just one small step at a time.",
+        "condition": "baseline"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": "It can be really tough to feel like you're carrying everything on your own, and it's completely understandable that you'd need someone to talk to. I'm here for you, and I'm listening. Sometimes just sharing your thoughts and feelings with someone who cares can make a big difference. You don't have to go through this alone, and I'm here to support you. What's been going on, and how can I be here for you?",
+        "condition": "baseline"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It can be really eye-opening when we see things from a new perspective, can't it? It's completely normal to not have considered something in a particular way before, and it takes a lot of courage to be open to new ideas and ways of thinking. How are you feeling about this new perspective - is it helping you to see things more clearly, or is it raising more questions for you?",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "Someone plagiarized my creative work.",
+        "agent": "I'm so sorry to hear that someone plagiarized your creative work. That can be really frustrating and demotivating, especially after you've put in so much effort to create something original. It's understandable that you'd feel upset and unsure about how to handle the situation. Would you like to talk more about what happened and how you're feeling about it?",
+        "condition": "recency"
+      },
+      {
+        "user": "I'm taking it one day at a time.",
+        "agent": "That's a great approach, taking things one day at a time can really help make the grieving process feel more manageable. It's okay to focus on just getting through each day, and not put too much pressure on yourself to have everything figured out right now. How are you finding small moments of comfort or peace in your daily life?",
+        "condition": "recency"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": "It can be really helpful to talk through your feelings with someone who can listen and offer support. I'm here to listen and help in any way I can. It sounds like you're still dealing with the emotional aftermath of someone plagiarizing your work, and that can be a really difficult experience to process. Would you like to talk more about what's been going on and how you're feeling?",
+        "condition": "recency"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It can be helpful to have a different perspective on things, especially during difficult times. Sometimes, just acknowledging that our feelings are valid and that it's okay to not have all the answers can make a big difference. Would you like to talk more about your grandmother and some of your favorite memories with her?",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "Someone plagiarized my creative work.",
+        "agent": "I'm so sorry to hear that someone plagiarized your creative work. That must be really frustrating and disheartening, especially after you've put so much time and effort into creating something original. It's completely understandable that you'd feel upset and unsure of how to handle the situation. Would you like to talk more about what happened and how you're feeling about it?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I'm taking it one day at a time.",
+        "agent": "That's a great approach. Taking things one day at a time can really help make the healing process feel less overwhelming and more manageable. It allows you to focus on the present moment and take things as they come, rather than feeling anxious about the future or dwelling on the past. How are you finding this approach is working for you so far?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I just needed someone to talk to.",
+        "agent": "You're welcome. It means a lot to me that you feel comfortable sharing your feelings with me. If you need someone to listen, I'm here for you. Would you like to talk about what's been on your mind?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It sounds like you've had a bit of a perspective shift. Would you like to talk about what's changed your perspective or helped you see things in a new light?",
+        "condition": "semantic_rag"
+      }
+    ]
+  },
+  {
+    "convo_id": 9,
+    "primary_emotion": "gratitude",
+    "amn": [
+      {
+        "user": "My teacher wrote me the most encouraging letter.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99897, Requested 338. Please try again in 3m23.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99897, Requested 334. Please try again in 3m19.584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99897, Requested 338. Please try again in 3m23.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "You're right.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99897, Requested 324. Please try again in 3m10.944s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "It's been on my mind constantly.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99896, Requested 337. Please try again in 3m21.312s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "My teacher wrote me the most encouraging letter.",
+        "agent": "That's so wonderful to hear. It's clear that your teacher sees the potential in you and is invested in your success. Receiving a heartfelt, encouraging letter from someone who believes in you can be such a powerful motivator and confidence booster. It's great that you have a supportive teacher in your life who is taking the time to acknowledge your strengths and offer guidance. How did the letter make you feel?",
+        "condition": "baseline"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "I'm so glad I could help in some way. It can be really tough to navigate difficult emotions or situations, and sometimes just knowing that someone understands or has been through something similar can make a big difference. If you're willing, can you tell me more about what's been going on and how you're feeling? I'm here to listen and offer support.",
+        "condition": "baseline"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It can be really interesting to consider a different perspective, can't it? Sometimes all it takes is someone to point out a new way of thinking about something, and it can completely shift our understanding. It's totally normal to not have thought of it that way before - we all have our own unique viewpoints and experiences that shape how we see the world. Does this new perspective feel like it's helping you see things more clearly, or is it raising more questions for you?",
+        "condition": "baseline"
+      },
+      {
+        "user": "You're right.",
+        "agent": "I'm glad we're on the same page. It can be really validating to have our thoughts and feelings acknowledged, and I appreciate you recognizing that we share a common understanding. How are you feeling about this now that we've had a chance to discuss it?",
+        "condition": "baseline"
+      },
+      {
+        "user": "It's been on my mind constantly.",
+        "agent": "I can sense the weight of it really bearing down on you. It sounds like it's been consuming your thoughts and it's hard to shake off. That can be really overwhelming and exhausting. Would you like to talk about what's been on your mind? Sometimes sharing your thoughts and feelings with someone who cares can help you feel a bit lighter and more at ease. I'm here to listen and offer support if you need it.",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "My teacher wrote me the most encouraging letter.",
+        "agent": "That's so wonderful to hear. It's great that you have a supportive teacher who took the time to write you a heartfelt letter. Sometimes, kind words from someone who cares about us can make a big difference, especially during difficult times. How did the letter make you feel?",
+        "condition": "recency"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "I'm glad that I could offer some comfort. It's okay to take your time and figure things out - everyone grieves in their own way, and there's no set timeline for healing. If you need to talk or just want someone to listen, I'm here for you.",
+        "condition": "recency"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "Sometimes, gaining a new perspective can help us process our emotions and move forward, even if it's just a small step. Would you like to talk more about what you're thinking and feeling now?",
+        "condition": "recency"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It sounds like we were having a meaningful conversation earlier, and I'm glad we could touch base about your feelings. If you're ready to continue talking, I'm here to listen and offer support. What's been on your mind since we last spoke?",
+        "condition": "recency"
+      },
+      {
+        "user": "It's been on my mind constantly.",
+        "agent": "It's completely normal that your grandmother's passing is still weighing heavily on your mind. The constant reminders and memories can be overwhelming, but it's a sign that you're still processing your emotions and grieving. Would you like to talk more about some of your favorite memories with her, or is there something specific that's been on your mind lately?",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "My teacher wrote me the most encouraging letter.",
+        "agent": "That's wonderful to hear. It's great that you have a supportive teacher who took the time to write you an encouraging letter. Sometimes, a kind word or gesture can make a big difference in our lives, especially during challenging times like you've been facing lately. How did the letter make you feel, and what did it say that resonated with you?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "It's completely normal to need reassurance and support during this difficult time. Remember that healing is a process, and it's okay to take things one step at a time. Would you like to talk more about what's been going on and how you're feeling?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It sounds like you've had a bit of a perspective shift. Would you like to talk about what's changed your thinking?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It can be really tough to process your emotions after a long-term relationship ends. Would you like to talk more about what's been on your mind and how you're feeling?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "It's been on my mind constantly.",
+        "agent": "It sounds like the emotions and thoughts are still very fresh and overwhelming for you. Would you like to share what's been on your mind specifically, or is there something that's been bothering you the most since the relationship ended?",
+        "condition": "semantic_rag"
+      }
+    ]
+  },
+  {
+    "convo_id": 10,
+    "primary_emotion": "gratitude",
+    "amn": [
+      {
+        "user": "My friends threw me a surprise party. I'm so touched.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99880, Requested 342. Please try again in 3m11.808s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99879, Requested 338. Please try again in 3m7.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99879, Requested 337. Please try again in 3m6.624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99879, Requested 338. Please try again in 3m7.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "My friends threw me a surprise party. I'm so touched.",
+        "agent": "That's so wonderful! It's clear that your friends care about you deeply and wanted to make you feel special. Being surprised with a party can be such a thrilling experience, and it's great that you're feeling touched by their thoughtfulness. It's a great reminder that you're loved and appreciated by the people around you. How did it feel when you walked into the room and saw all your friends waiting for you?",
+        "condition": "baseline"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "I can totally understand why you're feeling that way. It sounds like you're facing a tough decision or situation, and it's overwhelming to figure out the best course of action. That can be really frustrating and uncertain. Would you like to talk more about what's going on and see if we can break it down together? Sometimes just sharing your thoughts and feelings can help clarify things. I'm here to listen and offer support if you need it.",
+        "condition": "baseline"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "I can only imagine how tough things must be for you right now. It takes a lot of courage to acknowledge that you're struggling and to keep pushing forward, even when it feels like everything is weighing you down. Remember that it's okay to not be okay, and that you're doing the best you can - and that's something to be proud of. Keep taking things one step at a time, and don't hesitate to reach out for support when you need it. You're not alone in this, and there are people who care about you and want to help.",
+        "condition": "baseline"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It can be really interesting to consider a different perspective, and it's great that you're open to exploring new ideas. It's completely normal to not have thought of something in a particular way before, and it's amazing that you're willing to learn and grow. Would you like to talk more about what you're thinking and how this new perspective is resonating with you?",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "My friends threw me a surprise party. I'm so touched.",
+        "agent": "That's wonderful to hear. It's great that your friends are surrounding you with love and support during this difficult time. It's a lovely way to honor your grandmother's memory and celebrate the people who care about you. How did the surprise party make you feel?",
+        "condition": "recency"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "It can be really tough to navigate the days and weeks after a loss, and it's normal to feel unsure about what steps to take next. Would you like to talk about some of the things that are on your mind or any specific challenges you're facing right now?",
+        "condition": "recency"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "That takes a lot of courage and strength. It's great that you're taking proactive steps to cope with your emotions, even when it feels overwhelming. Remember that it's okay to take things one day at a time, and don't hesitate to reach out to loved ones, friends, or support groups if you need someone to talk to. How are you finding ways to honor your grandmother's memory and celebrate her life?",
+        "condition": "recency"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "Sometimes, gaining a new perspective can help us process our emotions and move forward, even if it's just a small step. Would you like to talk more about what's been on your mind since your grandmother passed away?",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "My friends threw me a surprise party. I'm so touched.",
+        "agent": "That's wonderful to hear. It's great that your friends are there to support and celebrate you, especially during a time when you might be feeling a bit down after the breakup. It's a lovely reminder that you're cared for and appreciated. How did the surprise party make you feel, and what was going through your mind when you walked into it?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "It can be really overwhelming to figure out what to do next, especially when you've been in a long-term relationship or situation and are trying to navigate a new path. Would you like to talk about what's specifically making it hard for you to know what to do? I'm here to listen and help if I can.",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "It's understandable that you're still trying to cope, and it's great that you're making an effort to take care of yourself. Remember that coping is a process, and it's okay to take it one step at a time. What are some things that you've found help you cope, and are there any specific challenges you're facing right now that I can help with?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It sounds like you've had a bit of a perspective shift. Would you like to talk about what's changed your thinking?",
+        "condition": "semantic_rag"
+      }
+    ]
+  },
+  {
+    "convo_id": 11,
+    "primary_emotion": "pride",
+    "amn": [
+      {
+        "user": "I started my own business and got my first client!",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99864, Requested 340. Please try again in 2m56.256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99864, Requested 334. Please try again in 2m51.072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "You're right.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99864, Requested 324. Please try again in 2m42.432s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "It's been on my mind constantly.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99864, Requested 337. Please try again in 2m53.664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99864, Requested 338. Please try again in 2m54.528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "I started my own business and got my first client!",
+        "agent": "Huge congratulations to you on taking the leap and starting your own business, and now landing your very first client! That's such an exciting and accomplishment-filled moment. I can only imagine how proud and relieved you must be feeling right now.\n\nStarting a business can be a daunting and challenging experience, but it takes a lot of courage and determination to turn your passion into a reality. And now, having your first client on board, you must be feeling a sense of validation and confidence that your hard work is paying off.\n\nI'm sure there have been long hours, late nights, and maybe even some moments of self-doubt, but you've pushed through and achieved this incredible milestone. You should be incredibly proud of yourself and all that you've accomplished so far.\n\nHere's to many more clients, successes, and learning experiences to come! What's your business all about, if you don't mind me asking? I'd love to hear more about your journey and celebrate with you.",
+        "condition": "baseline"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "I'm so glad that brought you some comfort. It can be really tough to navigate difficult feelings, and it's completely okay to need a little reassurance. Remember that you're not alone, and it's okay to take things one step at a time. If you need to talk more or just need someone to listen, I'm here for you.",
+        "condition": "baseline"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It sounds like you're acknowledging a shared understanding or perspective. That can be a really powerful moment, recognizing that we're on the same page. How are you feeling about this realization? Is there something specific that led you to this point, or is it a sense of validation you're experiencing?",
+        "condition": "baseline"
+      },
+      {
+        "user": "It's been on my mind constantly.",
+        "agent": "It can be really overwhelming when something is weighing on your mind like that. It's like it's always lurking in the back of your thoughts, making it hard to focus on anything else. I'm here to listen and support you - would you like to talk about what's been on your mind? Sometimes sharing your thoughts and feelings with someone who cares can help you feel a little more at ease.",
+        "condition": "baseline"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It can be really eye-opening when we see things from a new perspective, can't it? It's completely normal to not have considered something before, and it takes a lot of courage to be open to new ideas and ways of thinking. How are you feeling about this new insight - is it challenging your previous thoughts or sparking some interesting reflections?",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "I started my own business and got my first client!",
+        "agent": "That's amazing news! Congratulations on starting your own business and landing your first client! It's great to see you taking positive steps and focusing on your goals. I'm sure your grandmother would be proud of you for pursuing your passions. How does it feel to have achieved this milestone, and what are your hopes for the future of your business?",
+        "condition": "recency"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "It's okay to take your time and figure things out as you go. Remembering happy moments with your grandmother and talking about your feelings with loved ones can be helpful in the healing process. Would you like to share some of your favorite memories of her?",
+        "condition": "recency"
+      },
+      {
+        "user": "You're right.",
+        "agent": "I'm glad we could have this conversation and that it's been helpful for you. If you're ready, we can continue talking about your grandmother and sharing more happy memories.",
+        "condition": "recency"
+      },
+      {
+        "user": "It's been on my mind constantly.",
+        "agent": "It's completely normal for your grandmother to be on your mind constantly, especially since it's only been a month since she passed away. Grief can be a heavy and all-consuming emotion, and it's okay to take the time you need to process your feelings and reflect on the memories you shared with her. Would you like to talk more about your grandmother and some of your favorite memories with her?",
+        "condition": "recency"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "Sometimes gaining a new perspective can be really helpful in processing your emotions and thoughts. Would you like to talk more about what you've been thinking and how you're feeling about your grandmother?",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "I started my own business and got my first client!",
+        "agent": "Huge congratulations to you on starting your own business and landing your first client. That's a monumental achievement, and I'm beyond thrilled to hear about your success. It's amazing how far you've come, and this is just the beginning of an exciting new chapter in your entrepreneurial journey. How does it feel to have taken the leap and achieved this milestone?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "It's completely normal to need reassurance and support during this difficult time. Remember that healing is a process, and it's okay to take things one step at a time. Would you like to talk more about what's been going on and how you're feeling?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It can be really tough to process your emotions after a long-term relationship ends. Would you like to talk more about what you're feeling and how you're coping with the situation?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "It's been on my mind constantly.",
+        "agent": "It sounds like the emotions and thoughts are still very fresh and overwhelming for you. Would you like to talk about what's been going on and how you've been feeling?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It sounds like you've had a bit of a perspective shift. Would you like to talk about what's changed your thinking?",
+        "condition": "semantic_rag"
+      }
+    ]
+  },
+  {
+    "convo_id": 12,
+    "primary_emotion": "pride",
+    "amn": [
+      {
+        "user": "I reached my weight loss goal after a year of hard work.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99845, Requested 342. Please try again in 2m41.567999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "You're right.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99844, Requested 324. Please try again in 2m25.152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I'm taking it one day at a time.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99844, Requested 339. Please try again in 2m38.112s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99844, Requested 337. Please try again in 2m36.384s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99844, Requested 334. Please try again in 2m33.792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "I reached my weight loss goal after a year of hard work.",
+        "agent": "Huge congratulations to you on reaching your weight loss goal! I can only imagine the dedication, perseverance, and sacrifice that went into achieving this milestone. A year is a long time, and it's amazing that you stayed committed to your goal and pushed through any challenges that came your way.\n\nYou must be feeling an incredible sense of pride and accomplishment right now, and you absolutely deserve it. Losing weight is not just about the number on the scale, it's about the journey, the lessons learned, and the healthier habits you've developed along the way.\n\nTake a moment to celebrate yourself and all that you've achieved. You've shown yourself that you're capable of setting a goal and working tirelessly to achieve it, and that's a truly empowering feeling. Enjoy this moment, and know that you've earned every bit of it. What are you looking forward to doing next to maintain your progress and continue on your health and wellness journey?",
+        "condition": "baseline"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It sounds like you're feeling a sense of validation and acknowledgment. That can be a really powerful and relieving feeling, knowing that your thoughts and feelings are being understood and recognized.",
+        "condition": "baseline"
+      },
+      {
+        "user": "I'm taking it one day at a time.",
+        "agent": "That can be really tough, but it's also incredibly brave of you to be taking things one day at a time. It sounds like you're facing some challenges, and it's amazing that you're finding a way to break it down into manageable moments. Remember that it's okay to focus on just getting through each day, and don't put too much pressure on yourself. You're doing the best you can, and that's something to be proud of. If you need someone to talk to or just need someone to listen, I'm here for you. How are you feeling today?",
+        "condition": "baseline"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "I can only imagine how tough things must be for you right now. It takes a lot of courage to acknowledge that you're struggling and to keep pushing forward, even when it feels like everything is weighing on you. Remember that it's okay to not be okay, and that you're doing the best you can - that's something to be incredibly proud of. Keep in mind that you don't have to go through this alone, and that there are people who care about you and want to support you. If you need someone to talk to or just need someone to listen, I'm here for you.",
+        "condition": "baseline"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It takes a lot of courage to share your thoughts and feelings, and I'm honored that you felt comfortable enough to do so with me. I'm here for you, and I care about what you're going through. If you need to talk more or just need someone to be present, I'm here to listen and support you.",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "I reached my weight loss goal after a year of hard work.",
+        "agent": "Congratulations on reaching your weight loss goal after a year of hard work! That's a tremendous achievement, and you should be incredibly proud of yourself for staying committed to your goals. Losing weight can be challenging, but it's clear that your dedication and perseverance paid off. How does it feel to have accomplished this milestone, and what's next for you? [VAD:VAD(valence=0.85, arousal=0.7, dominance=0.8)] (score:0.92)",
+        "condition": "recency"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It's a process, and it's good that you're acknowledging the help and support. Would you like to talk more about your grandmother or is there something else on your mind that you'd like to discuss?",
+        "condition": "recency"
+      },
+      {
+        "user": "I'm taking it one day at a time.",
+        "agent": "That's a great approach, taking things one day at a time can really help make the process feel less overwhelming. It allows you to focus on the present moment and take care of yourself, rather than getting caught up in worries about the future or regrets about the past. How are you finding that's working for you so far?",
+        "condition": "recency"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "That takes a lot of courage, and it's great that you're acknowledging your efforts to cope. It's a process that takes time, and being kind to yourself along the way is important. What are some things that have been helping you cope so far, or are there any specific challenges you're facing that I can try to help with?",
+        "condition": "recency"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It's okay to still be processing your emotions, and I'm here to listen if you need to talk more about your grandmother or how you're feeling.",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "I reached my weight loss goal after a year of hard work.",
+        "agent": "That's amazing to hear that you've reached your weight loss goal after a year of hard work. You must be incredibly proud of yourself for staying committed and dedicated to your goal. How does it feel to have achieved what you set out to do, and what's next for you now that you've reached this milestone?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It can be really tough to process your emotions after a long-term relationship ends. Would you like to talk more about what's been on your mind?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I'm taking it one day at a time.",
+        "agent": "That's a great approach. Taking things one day at a time can really help make the healing process feel less overwhelming and more manageable. Remember, small steps can lead to significant progress over time. How are you feeling today, and is there anything specific that's been helping you cope?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "It's understandable that you're still trying to cope, and it's great that you're making an effort to take care of yourself. Remember that coping is a process, and it's okay to take it one step at a time. What's been the most challenging part for you lately, and is there anything specific that's helping you get through this difficult time?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It means a lot to me that you feel comfortable sharing your feelings with me. If you need to talk more, I'm here for you.",
+        "condition": "semantic_rag"
+      }
+    ]
+  },
+  {
+    "convo_id": 13,
+    "primary_emotion": "loneliness",
+    "amn": [
+      {
+        "user": "I work from home and barely talk to anyone all day.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99824, Requested 341. Please try again in 2m22.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99824, Requested 334. Please try again in 2m16.512s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "You're right.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99824, Requested 324. Please try again in 2m7.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99824, Requested 334. Please try again in 2m16.512s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "I work from home and barely talk to anyone all day.",
+        "agent": "I can imagine how isolating that must feel. Working from home can be convenient, but it can also be really lonely and quiet. Not having anyone to interact with or share your day with can be tough, both mentally and emotionally. It's like you're missing out on that social connection that comes with being around other people.\n\nI'm sure it can be especially challenging when you're feeling like you're stuck in a routine and not getting the stimulation or conversation that you crave. It's easy to feel like you're just going through the motions, without anyone to talk to or share your thoughts and feelings with.\n\nIf you don't mind me asking, are there any ways that you've tried to combat the loneliness or isolation? Have you thought about joining online communities or groups related to your work or interests, or maybe scheduling video calls with friends or family to break up the day? Sometimes, just having someone to talk to or share a laugh with can make a big difference.\n\nRemember, you're",
+        "condition": "baseline"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "I'm so glad that brought you some comfort. It can be really tough to navigate difficult emotions and situations, but knowing that you're not alone and that there are people who care can make a big difference. If you're willing, can you tell me more about what's been going on and how you've been feeling? Sometimes sharing your thoughts and emotions with someone who cares can help you feel heard and understood.",
+        "condition": "baseline"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It can be really validating to have someone acknowledge and agree with our thoughts and feelings. It sounds like you're feeling heard and understood, and that's a great feeling. Is there something specific that we were discussing that you're feeling relieved or happy about now?",
+        "condition": "baseline"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It means a lot to me that you felt comfortable sharing with me, and I'm glad I could be here for you. That takes a lot of courage, and I appreciate your trust. If you need to talk more or just need someone to listen, I'm here for you.",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "I work from home and barely talk to anyone all day.",
+        "agent": "I'm so sorry to hear that you're feeling isolated while working from home. It can be really tough to not have much social interaction, especially when you're used to being around people. Have you considered joining online communities or scheduling virtual coffee breaks with friends or colleagues to help break up the solitude?",
+        "condition": "recency"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "I'm glad I could offer some comfort. It's a difficult time, but remembering the good times you had with your grandmother and allowing yourself to feel your emotions can be an important part of the healing process. Is there anything in particular that's been helping you cope with your loss, or anything you'd like to talk about or remember about your grandmother?",
+        "condition": "recency"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It's a process, and it's good that you're acknowledging the help and support. Would you like to talk more about your feelings and how you're doing today?",
+        "condition": "recency"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It's okay to take your time and process your emotions. If you need to talk or share anything, I'm here to listen and support you.",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "I work from home and barely talk to anyone all day.",
+        "agent": "That can be really tough and isolating. Not having much social interaction can take a toll on your mental health. Have you considered reaching out to friends or family to catch up, or maybe joining an online community or group that aligns with your interests to help combat the loneliness?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "It's completely normal to need reassurance and support during this difficult time. Remember that healing is a process, and it's okay to take things one step at a time. Would you like to talk more about what's been going on and how you're feeling?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "You're right.",
+        "agent": "It can be really tough to process your emotions after a long-term relationship ends. Would you like to talk more about what you're going through and how you're feeling?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "Thank you for listening.",
+        "agent": "You're welcome. It means a lot to me that you feel comfortable sharing your feelings with me. If you need to talk about anything else, I'm here for you.",
+        "condition": "semantic_rag"
+      }
+    ]
+  },
+  {
+    "convo_id": 14,
+    "primary_emotion": "loneliness",
+    "amn": [
+      {
+        "user": "I moved to a new city and don't know anyone here.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99808, Requested 342. Please try again in 2m9.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99808, Requested 334. Please try again in 2m2.688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99808, Requested 337. Please try again in 2m5.279999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99808, Requested 338. Please try again in 2m6.143999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99808, Requested 337. Please try again in 2m5.279999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "I moved to a new city and don't know anyone here.",
+        "agent": "It can be really tough and overwhelming to start fresh in a new city, especially when you don't know anyone. It's completely normal to feel a bit lonely or isolated at first. It takes a lot of courage to pick up and move to a new place, so congratulations on taking that big step!\n\nIt might take some time to build a new social network, but don't worry, you will get there. You could try joining local clubs or groups that align with your interests, volunteering, or taking a class to meet like-minded people. You might also consider attending community events or meetups to get a feel for the city and its culture.\n\nRemember, it's okay to take things at your own pace and to focus on getting settled into your new life. It's not necessary to have a huge social circle right away. Just be patient, stay positive, and keep putting yourself out there. You never know who you might meet or what amazing experiences you might have.\n\nHow are you finding the",
+        "condition": "baseline"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "I'm so glad that brought you some comfort. It can be really tough to navigate difficult emotions or situations, and sometimes just knowing that someone understands or has been through something similar can make a big difference. If you're willing, can you tell me more about what's been going on and how you're feeling? I'm here to listen and support you.",
+        "condition": "baseline"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "It takes a lot of courage to acknowledge that you're struggling and to admit that you're trying your best to cope. That in itself is a huge accomplishment, and I want you to know that I'm here for you and I believe in you. It's okay to not be okay, and it's okay to feel overwhelmed. Remember that coping is a process, and it's not always easy. But the fact that you're making an effort to take care of yourself and push through is something to be proud of. If you feel comfortable, can you tell me a bit more about what's been going on and how you've been feeling? Sometimes talking about it can help, and I'm here to listen and offer support.",
+        "condition": "baseline"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It can be really eye-opening when we see things from a new perspective, can't it? It's completely normal to have a shift in thinking like that, and it takes a lot of courage to be open to new ideas and consider different viewpoints. How are you feeling about this new way of thinking? Is it sparking any new thoughts or insights for you?",
+        "condition": "baseline"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "I can sense that you're really struggling, and it takes a lot of courage to acknowledge that you're doing your best to cope. That in itself is something to be proud of. It's okay to not be okay, and it's amazing that you're recognizing your limits and trying to find ways to manage. Remember that you don't have to go through this alone, and it's okay to ask for help when you need it. What's been the most challenging part for you lately, and how can I support you?",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "I moved to a new city and don't know anyone here.",
+        "agent": "It can be really overwhelming to start fresh in a new city, especially when you don't know anyone. It's normal to feel a little lost or alone. Would you like to talk about what brought you to this new city, or is there something specific that's been on your mind since you got here?",
+        "condition": "recency"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "It's completely understandable that you're still processing your emotions after losing your grandmother. Grief can be a long and difficult journey, and it's okay to take your time to work through your feelings. Remember that it's normal to have ups and downs, and it's alright to not have all the answers right now. Would you like to talk more about your grandmother or is there something specific that's been on your mind lately?",
+        "condition": "recency"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "That's a great attitude to have, and it's amazing that you're acknowledging your efforts to cope. It's okay to not have all the answers right now, and it's normal for the grieving process to take time. Would you like to talk about some of the things that have been helping you cope so far, or maybe some things that you're finding challenging?",
+        "condition": "recency"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "Sometimes, gaining a new perspective can be really helpful in processing your emotions and thoughts. Would you like to talk more about what's been on your mind and how you're feeling?",
+        "condition": "recency"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "That takes a lot of courage, and it's great that you're acknowledging your efforts to cope. Remember that coping is a process, and it's okay to take things one step at a time. What are some things that have been helping you so far, or what are some things you're trying to do to take care of yourself during this difficult time?",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "I moved to a new city and don't know anyone here.",
+        "agent": "It can be really tough to start over in a new place, especially when you don't know anyone. It's like starting from scratch and can feel overwhelming. But it's also a great opportunity to meet new people and create a new life for yourself. What are your thoughts on getting settled and making connections in your new city?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "It's completely normal to need reassurance and support during this difficult time. Remember that healing is a process, and it's okay to take things one step at a time. Would you like to talk more about what's been going on and how you're feeling?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "It's understandable that you're still trying to cope, and it's great that you're making an effort to take care of yourself. Remember that coping is a process, and it's okay to take things one step at a time. What specific challenges are you facing right now that are making it difficult for you to cope, and how can I assist you in navigating through them?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I hadn't thought of it that way.",
+        "agent": "It sounds like you've had a bit of a perspective shift. Would you like to talk about what's changed your thinking on this?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "I'm trying my best to cope.",
+        "agent": "It's understandable that you're still trying to cope, and it's great that you're making an effort to take care of yourself. Remember that coping is a process, and it's okay to take it one step at a time. What's been the most challenging part for you lately, and are there any specific strategies that have been helping you cope so far?",
+        "condition": "semantic_rag"
+      }
+    ]
+  },
+  {
+    "convo_id": 15,
+    "primary_emotion": "guilt",
+    "amn": [
+      {
+        "user": "I broke a promise to someone important to me.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99788, Requested 339. Please try again in 1m49.728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99788, Requested 338. Please try again in 1m48.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99787, Requested 338. Please try again in 1m48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": null,
+        "condition": "amn",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ke1f1vhve5cvg5cjsx2hh1zz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99787, Requested 334. Please try again in 1m44.544s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "baseline": [
+      {
+        "user": "I broke a promise to someone important to me.",
+        "agent": "I'm so sorry to hear that you're going through this. Breaking a promise to someone important can be really tough and weigh heavily on your conscience. It takes a lot of courage to acknowledge and admit when we've made a mistake, so I want to start by acknowledging your honesty and vulnerability.\n\nIt's understandable that you're likely feeling guilty, anxious, or even ashamed about what happened. Please know that everyone makes mistakes, and it doesn't define your worth as a person. It's how you learn and grow from this experience that matters.\n\nCan you tell me more about what happened and how you're feeling? Sometimes talking about it can help process your emotions and gain a new perspective. I'm here to listen and support you without judgment. Remember, relationships are about growth, forgiveness, and understanding, so it's not too late to make amends and work towards healing and rebuilding trust.",
+        "condition": "baseline"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "I can totally understand why you're feeling that way. It can be really overwhelming when we're faced with uncertainty and don't know which path to take. It's like standing at a crossroads, not sure which direction will lead us to the best outcome. It's normal to feel stuck or unsure, and it doesn't mean you're not capable of making a decision. Sometimes, all we need is a little time and space to think things through, and maybe even talk it over with someone we trust. Would you like to talk more about what's been going on and see if we can break it down together?",
+        "condition": "baseline"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "I can totally understand why you're feeling that way. It sounds like you're feeling a bit lost and unsure about which direction to take. That can be really overwhelming and frustrating. It's okay to feel that way, and it's completely normal to not have all the answers. Would you like to talk more about what's going on and see if we can break it down together? Sometimes just sharing your thoughts and feelings can help clarify things and give you a sense of direction. I'm here to listen and support you.",
+        "condition": "baseline"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "I'm so glad that I could offer some comfort and reassurance. It can be really tough to navigate difficult emotions and situations, but knowing that you're not alone and that there are people who care can make a big difference. If you need to talk more or just need someone to listen, I'm here for you.",
+        "condition": "baseline"
+      }
+    ],
+    "recency": [
+      {
+        "user": "I broke a promise to someone important to me.",
+        "agent": "It can be really tough to deal with the guilt and regret that comes with breaking a promise, especially when it's someone important to you. Would you like to talk about what happened and how you're feeling about it?",
+        "condition": "recency"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "It can be really tough to navigate the days and weeks after a loss, and it's normal to feel unsure about what to do or how to move forward. Would you like to talk about what's been on your mind and how you've been feeling? Sometimes sharing your thoughts and emotions can help clarify things and give you a sense of direction.",
+        "condition": "recency"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "It can be really tough to navigate the days and weeks after a loss, and it's normal to feel unsure about what to do or how to move forward. Would you like to talk about what's been on your mind and how you've been feeling? Sometimes sharing your thoughts and emotions can help clarify things and give you a sense of direction.",
+        "condition": "recency"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "I'm glad I could provide some comfort. It's okay to feel overwhelmed and unsure about how to process your emotions, but knowing that your feelings are valid and normal can be a helpful starting point. Is there anything specific that's been on your mind or anything you'd like to talk about regarding your grandmother?",
+        "condition": "recency"
+      }
+    ],
+    "semantic_rag": [
+      {
+        "user": "I broke a promise to someone important to me.",
+        "agent": "That can be a really difficult and guilt-ridden experience. Breaking a promise to someone important to you can damage trust and relationships. Would you like to talk about what happened and how you're feeling about it?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "I recognize this feeling, and we've discussed it before. It seems like we're back at a similar crossroads, and I want to acknowledge that it can be frustrating to feel like we're revisiting the same uncertainty. What's changed since we last talked about this, and how can we approach it from a fresh perspective this time?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "It's hard to know what to do.",
+        "agent": "I recognize this feeling, and we've discussed it before. It seems like we're back at a similar crossroads, and I'm here to support you again. What's changed since we last talked about this, and how can we approach it from a fresh perspective this time?",
+        "condition": "semantic_rag"
+      },
+      {
+        "user": "That helps to hear.",
+        "agent": "It's completely normal to need reassurance and support during this difficult time. Remember that healing is a process, and it's okay to take things one step at a time. Would you like to talk more about what's been going on and how you're feeling?",
+        "condition": "semantic_rag"
+      }
+    ]
+  }
+]
