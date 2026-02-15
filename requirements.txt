@@ -1,0 +1,10 @@
+anthropic
+numpy
+pandas
+nltk
+transformers
+torch
+scikit-learn
+matplotlib
+seaborn
+pyyaml

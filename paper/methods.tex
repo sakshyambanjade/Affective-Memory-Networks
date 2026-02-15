@@ -1,0 +1,7 @@
+% Methods draft for AMN
+\section{Emotional Appraisal}
+Emotional appraisal uses a hybrid VAD lexicon + LLM approach. Equation:
+\[
+V = w_l L_v + (1-w_l) LLM_v
+\]
+where $L_v$ is the lexicon score, $LLM_v$ is the LLM fallback, and $w_l$ is the lexicon weight (default 0.7).
