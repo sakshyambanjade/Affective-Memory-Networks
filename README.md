@@ -7,3 +7,7 @@ RQ4: Which components contribute most (ablations)?
 
 ## Architecture
 [Insert ASCII diagram from plan]
+
+## Daily Log
+Day 1: VAD live.
+Day 2: Memories storing.

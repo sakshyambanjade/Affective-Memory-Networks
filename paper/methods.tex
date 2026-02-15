@@ -1,7 +1,13 @@
 % Methods draft for AMN
 \section{Emotional Appraisal}
 Emotional appraisal uses a hybrid VAD lexicon + LLM approach. Equation:
-\[
+\begin{equation}
 V = w_l L_v + (1-w_l) LLM_v
-\]
-where $L_v$ is the lexicon score, $LLM_v$ is the LLM fallback, and $w_l$ is the lexicon weight (default 0.7).
+\end{equation}
+
+\subsection{Memory Systems}
+Working memory holds $C=5$ recent episodes $e_t = (content_t, VAD_t, recency_t, importance_t)$, evicting LRU on overflow \cite{miller1956magical}.
+
+Episodic memory stores chronologically: $E = \{e_1, \dots, e_n\}$.
+
+Consolidation: $trigger(e) = \mathbb{I}(arousal > 0.7 \lor goal > 0.8)$.

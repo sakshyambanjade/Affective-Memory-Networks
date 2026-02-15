@@ -1,2 +1,4 @@
 llm_threshold: 0.3
 lexicon_weight: 0.7
+memory:
+  working_capacity: 5
