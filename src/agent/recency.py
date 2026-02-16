@@ -4,17 +4,17 @@ import logging
 from src.agent.baseline import BaselineAgent
 from src.memory.core import WorkingMemory, EpisodicMemory
 from src.retrieval.engine import RetrievalEngine
-from src.agent.ollama_client import ollama_chat
+from src.agent.gpt_oss_client import gpt_oss_cloud_chat
 
 logger = logging.getLogger('AMN')
 
 class RecencyAgent:
-    def __init__(self):
-        self.baseline = BaselineAgent()
+    def __init__(self, model="gpt-oss:120b-cloud"):
+        self.baseline = BaselineAgent(model=model)
         self.wm = WorkingMemory()
         self.em = EpisodicMemory()
         self.retriever = RetrievalEngine(self.wm, self.em, k=3)
-    
+
     def _format_context(self, retrieved):
         ctx = []
         for mem, score in retrieved:
@@ -31,9 +31,9 @@ class RecencyAgent:
         retrieved = sorted(retrieved, key=lambda x: x[0].recency_score, reverse=True)
         context = self._format_context(retrieved)
         prompt = f"MEMORIES (RECENCY ONLY): {context}\nCURRENT: {user_input}\nRespond:"
-        reply = ollama_chat(
+        reply = gpt_oss_cloud_chat(
             prompt,
-            model="tinyllama",
+            model=self.baseline.model,
             max_tokens=200,
             temperature=0.7
         )

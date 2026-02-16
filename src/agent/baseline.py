@@ -3,20 +3,21 @@
 
 import logging
 from src.emotion.analyzer import EmotionalAppraisal
-from src.agent.ollama_client import ollama_chat
+from src.agent.gpt_oss_client import gpt_oss_cloud_chat
 
 logger = logging.getLogger('AMN')
 
 class BaselineAgent:
-    def __init__(self):
+    def __init__(self, model="gpt-oss:120b-cloud"):
         self.appraiser = EmotionalAppraisal()
+        self.model = model
 
     def step(self, user_input: str) -> str:
         vad = self.appraiser.analyze(user_input)['vad']
         prompt = f"Respond empathetically to: {user_input}"
-        reply = ollama_chat(
+        reply = gpt_oss_cloud_chat(
             prompt,
-            model="tinyllama",
+            model=self.model,
             max_tokens=200,
             temperature=0.7
         )

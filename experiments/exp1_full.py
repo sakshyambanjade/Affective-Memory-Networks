@@ -1,7 +1,10 @@
+
+import os, sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import multiprocessing as mp
 import json
 from datetime import datetime
-from experiments.exp1_generator import AGENTS, TOPICS, generate_career_crisis_turns
+from exp1_generator import AGENTS, TOPICS, generate_career_crisis_turns
 
 def worker_convo(args):
     convo_id, topic = args

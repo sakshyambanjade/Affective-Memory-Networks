@@ -4,40 +4,40 @@
       "variant": "no_peak",
       "memory_rate_mean": 14.333333333333334,
       "memory_rate_std": 14.590712418826193,
-      "coherence_mean": 0.8201150735219319,
-      "coherence_std": 0.009978802829020434,
+      "coherence_mean": 0.8278683185577392,
+      "coherence_std": 0.00905582117550608,
       "n_conversations": 15
     },
     {
       "variant": "no_recency",
       "memory_rate_mean": 10.333333333333334,
       "memory_rate_std": 13.349989596333858,
-      "coherence_mean": 0.8183712164560953,
-      "coherence_std": 0.012265782051106483,
+      "coherence_mean": 0.8260385791460673,
+      "coherence_std": 0.011996347356533845,
       "n_conversations": 15
     },
     {
       "variant": "full",
       "memory_rate_mean": 9.166666666666668,
       "memory_rate_std": 13.667682889047272,
-      "coherence_mean": 0.8169643183549246,
-      "coherence_std": 0.00914979040573764,
+      "coherence_mean": 0.8236511300007502,
+      "coherence_std": 0.010189046349761843,
       "n_conversations": 15
     },
     {
       "variant": "no_goal",
       "memory_rate_mean": 4.333333333333334,
       "memory_rate_std": 8.730533902472532,
-      "coherence_mean": 0.8149474064509074,
-      "coherence_std": 0.011637886581291884,
+      "coherence_mean": 0.8233551422754923,
+      "coherence_std": 0.01127290963909455,
       "n_conversations": 15
     },
     {
       "variant": "no_emotional",
       "memory_rate_mean": 0.0,
       "memory_rate_std": 0.0,
-      "coherence_mean": 0.8091026822725932,
-      "coherence_std": 0.010668939462385757,
+      "coherence_mean": 0.8165872891743978,
+      "coherence_std": 0.010275612500447683,
       "n_conversations": 15
     }
   ],
@@ -45,8 +45,8 @@
     "variant": "full",
     "memory_rate_mean": 9.166666666666668,
     "memory_rate_std": 13.667682889047272,
-    "coherence_mean": 0.8169643183549246,
-    "coherence_std": 0.00914979040573764,
+    "coherence_mean": 0.8236511300007502,
+    "coherence_std": 0.010189046349761843,
     "n_conversations": 15
   },
   "configs": {

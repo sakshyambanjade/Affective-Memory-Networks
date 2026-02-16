@@ -6,25 +6,26 @@ from src.memory.core import WorkingMemory, EpisodicMemory
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import logging
-from src.agent.ollama_client import ollama_chat
+from src.agent.gpt_oss_client import gpt_oss_cloud_chat
 
 logger = logging.getLogger('AMN')
 
 class SemanticRAGAgent:
-    def __init__(self):
-        self.baseline = BaselineAgent()
+    def __init__(self, model="gpt-oss:120b-cloud"):
+        self.baseline = BaselineAgent(model=model)
         self.wm = WorkingMemory()
         self.em = EpisodicMemory()
-    
+        self.model = model
+
     def step(self, user_input: str) -> str:
         vad = self.baseline.appraiser.analyze(user_input)['vad']
         all_mems = self.wm.get_all() + self.em.get_recent(50)
         if not all_mems:
             # No memories yet, just respond to the user input
             prompt = f"SEMANTIC MEMORIES: (none)\nCURRENT: {user_input}\nRespond:"
-            reply = ollama_chat(
+            reply = gpt_oss_cloud_chat(
                 prompt,
-                model="llama2",
+                model=self.model,
                 max_tokens=200,
                 temperature=0.7
             )
@@ -40,9 +41,9 @@ class SemanticRAGAgent:
         top_indices = np.argsort(similarities)[-3:][::-1]
         context = "\n".join([f"PAST: {all_mems[i].content[:150]}..." for i in top_indices])
         prompt = f"SEMANTIC MEMORIES: {context}\nCURRENT: {user_input}\nRespond:"
-        reply = ollama_chat(
+        reply = gpt_oss_cloud_chat(
             prompt,
-            model="tinyllama",
+            model=self.model,
             max_tokens=200,
             temperature=0.7
         )

@@ -1,3 +1,6 @@
+
+import os, sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import json, random
 from datetime import datetime
 from src.agent.agent import AMNAgent
@@ -6,10 +9,10 @@ from src.agent.recency import RecencyAgent
 from src.agent.rag import SemanticRAGAgent
 
 AGENTS = {
-    'amn': AMNAgent(),
-    'baseline': BaselineAgent(),
-    'recency': RecencyAgent(),
-    'semantic_rag': SemanticRAGAgent()
+    'amn': AMNAgent(model="gpt-oss:120b-cloud"),
+    'baseline': BaselineAgent(model="gpt-oss:120b-cloud"),
+    'recency': RecencyAgent(model="gpt-oss:120b-cloud"),
+    'semantic_rag': SemanticRAGAgent(model="gpt-oss:120b-cloud")
 }
 
 TOPICS = [

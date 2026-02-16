@@ -4,16 +4,18 @@ from typing import List
 from src.memory.core import WorkingMemory, EpisodicMemory
 from src.retrieval.engine import RetrievalEngine
 from src.emotion.analyzer import EmotionalAppraisal
-from src.agent.ollama_client import ollama_chat
+
+from src.agent.gpt_oss_client import gpt_oss_cloud_chat
 
 logger = logging.getLogger('AMN')
 
 class AMNAgent:
-    def __init__(self):
+    def __init__(self, model="tinyllama"):
         self.wm = WorkingMemory()
         self.em = EpisodicMemory()
         self.retriever = RetrievalEngine(self.wm, self.em, k=3)
         self.appraiser = EmotionalAppraisal()
+        self.model = model
 
     def _format_context(self, retrieved: List) -> str:
         ctx = []
@@ -31,9 +33,9 @@ class AMNAgent:
         retrieved = self.retriever.retrieve(user_input, vad)
         context = self._format_context(retrieved)
         prompt = f"You are an emotionally aware agent. Use these memories to respond empathetically:\n\nMEMORIES:\n{context}\n\nCURRENT: {user_input}\n\nRespond naturally, referencing relevant past emotions/experiences when helpful. Be concise."
-        reply = ollama_chat(
+        reply = gpt_oss_cloud_chat(
             prompt,
-            model="tinyllama",
+            model=self.model,
             system_prompt="You maintain emotional continuity across conversations.",
             max_tokens=200,
             temperature=0.7
