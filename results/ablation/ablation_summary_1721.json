@@ -1,0 +1,89 @@
+{
+  "summary": [
+    {
+      "variant": "no_peak",
+      "memory_rate_mean": 14.333333333333334,
+      "memory_rate_std": 14.590712418826193,
+      "coherence_mean": 0.8201150735219319,
+      "coherence_std": 0.009978802829020434,
+      "n_conversations": 15
+    },
+    {
+      "variant": "no_recency",
+      "memory_rate_mean": 10.333333333333334,
+      "memory_rate_std": 13.349989596333858,
+      "coherence_mean": 0.8183712164560953,
+      "coherence_std": 0.012265782051106483,
+      "n_conversations": 15
+    },
+    {
+      "variant": "full",
+      "memory_rate_mean": 9.166666666666668,
+      "memory_rate_std": 13.667682889047272,
+      "coherence_mean": 0.8169643183549246,
+      "coherence_std": 0.00914979040573764,
+      "n_conversations": 15
+    },
+    {
+      "variant": "no_goal",
+      "memory_rate_mean": 4.333333333333334,
+      "memory_rate_std": 8.730533902472532,
+      "coherence_mean": 0.8149474064509074,
+      "coherence_std": 0.011637886581291884,
+      "n_conversations": 15
+    },
+    {
+      "variant": "no_emotional",
+      "memory_rate_mean": 0.0,
+      "memory_rate_std": 0.0,
+      "coherence_mean": 0.8091026822725932,
+      "coherence_std": 0.010668939462385757,
+      "n_conversations": 15
+    }
+  ],
+  "full_model": {
+    "variant": "full",
+    "memory_rate_mean": 9.166666666666668,
+    "memory_rate_std": 13.667682889047272,
+    "coherence_mean": 0.8169643183549246,
+    "coherence_std": 0.00914979040573764,
+    "n_conversations": 15
+  },
+  "configs": {
+    "full": {
+      "semantic": 0.25,
+      "emotional": 0.3,
+      "goal": 0.2,
+      "peak_end": 0.15,
+      "recency": 0.1
+    },
+    "no_emotional": {
+      "semantic": 0.286,
+      "emotional": 0.0,
+      "goal": 0.286,
+      "peak_end": 0.214,
+      "recency": 0.214
+    },
+    "no_goal": {
+      "semantic": 0.3125,
+      "emotional": 0.375,
+      "goal": 0.0,
+      "peak_end": 0.1875,
+      "recency": 0.125
+    },
+    "no_peak": {
+      "semantic": 0.294,
+      "emotional": 0.353,
+      "goal": 0.235,
+      "peak_end": 0.0,
+      "recency": 0.118
+    },
+    "no_recency": {
+      "semantic": 0.278,
+      "emotional": 0.333,
+      "goal": 0.222,
+      "peak_end": 0.167,
+      "recency": 0.0
+    }
+  }
+}
