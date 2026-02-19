@@ -47,7 +47,10 @@ def create_figure2_memory_rates():
     
     plt.title('Memory Reference Rate Comparison', fontsize=16, fontweight='bold', pad=20)
     plt.tight_layout()
-    plt.savefig(RESULTS_DIR / 'figure2_memory_rates_final.png', dpi=300, bbox_inches='tight')
+    from pathlib import Path
+    figures_dir = Path('results/figures')
+    figures_dir.mkdir(parents=True, exist_ok=True)
+    plt.savefig(figures_dir / 'figure2_memory_rates_final.png', dpi=300, bbox_inches='tight')
     print("✓ Created Figure 2: Memory Reference Rates")
 
 def create_figure3_coherence():
@@ -83,7 +86,7 @@ def create_figure3_coherence():
     
     plt.title('Coherence Score Comparison', fontsize=16, fontweight='bold', pad=20)
     plt.tight_layout()
-    plt.savefig(RESULTS_DIR / 'figure3_coherence_final.png', dpi=300, bbox_inches='tight')
+    plt.savefig(figures_dir / 'figure3_coherence_final.png', dpi=300, bbox_inches='tight')
     print("✓ Created Figure 3: Coherence Scores")
 
 def create_figure4_ablation():
@@ -112,7 +115,7 @@ def create_figure4_ablation():
     plt.title('Ablation Study: Impact of Each Retrieval Factor', fontsize=16, fontweight='bold', pad=20)
     plt.legend(loc='upper right')
     plt.tight_layout()
-    plt.savefig(RESULTS_DIR / 'figure4_ablation_study.png', dpi=300, bbox_inches='tight')
+    plt.savefig(figures_dir / 'figure4_ablation_study.png', dpi=300, bbox_inches='tight')
     print("✓ Created Figure 4: Ablation Study")
 
 # Run all

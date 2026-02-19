@@ -1,43 +1,67 @@
 """
-Ablation Study for AMN
-Tests importance of each retrieval factor by removing one at a time
+Ablation Study - Run all variants on the same set of conversations
+Generates Table 2 for the paper automatically.
 """
 
-import os
-import sys
 import json
-import logging
-from datetime import datetime
 from pathlib import Path
-import time
+from tqdm import tqdm
+import pandas as pd
+
+from amn.agent import AMNAgent          # your existing package
+from amn.config import Config
+from experiments.eval_metrics import compute_all_metrics   # we'll create this next
 
 PROJECT_ROOT = Path(__file__).parent.parent
-sys.path.insert(0, str(PROJECT_ROOT))
-
-from amn_data_package.scripts.load_data import AMNDataLoader
-from src.agent.agent import AMNAgent
-from src.memory.core import WorkingMemory, EpisodicMemory
-from src.retrieval.engine import RetrievalEngine
-from src.emotion.analyzer import EmotionalAppraisal
-
-# Set up logging
-RESULTS_DIR = PROJECT_ROOT / 'results' / 'ablation'
+RESULTS_DIR = PROJECT_ROOT / "results" / "ablation"
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
-log_time = datetime.now().strftime('%Y%m%d_%H%M')
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s %(message)s',
-    handlers=[
-        logging.FileHandler(RESULTS_DIR / f'ablation_{log_time}.log'),
-        logging.StreamHandler()
-    ]
-)
-logger = logging.getLogger('ABLATION')
 
-# Define ablation configurations
-ABLATION_CONFIGS = {
-    'full': {
-        'semantic': 0.25,
+def run_ablation():
+    config = Config()                       # your config with dataset path
+    dataset = config.load_dataset()         # assume this returns list of 100 convos
+
+    variants = {
+        "Full AMN":          {"emotional_weight": 0.30, "peak_weight": 0.15},
+        "No Emotion":        {"emotional_weight": 0.00, "peak_weight": 0.15},
+        "No Peak Importance":{"emotional_weight": 0.30, "peak_weight": 0.00},
+        "Semantic Only":     {"emotional_weight": 0.00, "peak_weight": 0.00, "semantic_weight": 0.45},
+    }
+
+    results = {}
+
+    for name, weights in tqdm(variants.items(), desc="Running ablations"):
+        # Override weights
+        agent = AMNAgent(weights=weights)
+        
+        conversation_results = []
+        for convo in dataset[:50]:          # 50 convos for speed (scale to 100 later)
+            history = []
+            for turn in convo["turns"]:
+                response = agent.respond(turn["user"], history)
+                history.append({"user": turn["user"], "agent": response})
+            
+            metrics = compute_all_metrics(history, ground_truth=convo["ground_truth"])
+            conversation_results.append(metrics)
+        
+        # Aggregate
+        df = pd.DataFrame(conversation_results)
+        results[name] = {
+            "memory_rate": df["memory_reference_rate"].mean() * 100,
+            "coherence": df["bertscore_f1"].mean(),
+            "std_memory": df["memory_reference_rate"].std() * 100,
+            "std_coherence": df["bertscore_f1"].std(),
+        }
+
+    # Save + print Table 2
+    pd.DataFrame(results).T.to_csv(RESULTS_DIR / "ablation_table.csv")
+    print("\n" + "="*60)
+    print("TABLE 2: ABLATION RESULTS")
+    print(pd.DataFrame(results).T.round(3))
+    print("="*60)
+    print(f"Results saved to {RESULTS_DIR}")
+
+if __name__ == "__main__":
+    run_ablation()
         'emotional': 0.30,
         'goal': 0.20,
         'peak_end': 0.15,

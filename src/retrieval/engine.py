@@ -34,10 +34,19 @@ class RetrievalEngine:
         e_vec = self.vectorizer.transform([entry.content])
         return cosine_similarity(q_vec, e_vec)[0][0]
 
-    def _emotional_resonance(self, query_vad, entry_vad) -> float:
-        valence_diff = 1 - abs(query_vad.valence - entry_vad.valence)
-        arousal_align = 1 - abs(query_vad.arousal - entry_vad.arousal) * 0.5
-        return (valence_diff + arousal_align) / 2
+    def _emotional_resonance(self, query_vad, memory_vad) -> float:
+        """
+        Implements complementary retrieval for therapeutic reframing (paper Section 3.3)
+        When user is negative → retrieve positive memories for reframing
+        """
+        # Valence: opposite when user is negative
+        if query_vad.valence < -0.2:          # user in distress
+            valence_sim = 1 - abs(query_vad.valence + memory_vad.valence)   # push toward positive
+        else:
+            valence_sim = 1 - abs(query_vad.valence - memory_vad.valence)
+        # Arousal: always similarity (high arousal memories stay salient)
+        arousal_sim = 1 - 0.5 * abs(query_vad.arousal - memory_vad.arousal)
+        return 0.5 * valence_sim + 0.5 * arousal_sim
 
     def _goal_align(self, query_appraisal, entry_appraisal) -> float:
         goal_sim = 1 - abs(query_appraisal.goal_relevance - entry_appraisal.goal_relevance)

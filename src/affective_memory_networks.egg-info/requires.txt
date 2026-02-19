@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+sentence-transformers
+bert-score
+scipy
+ollama
+tqdm

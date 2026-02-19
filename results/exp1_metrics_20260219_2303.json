@@ -1,0 +1,222 @@
+{
+ "convo_1": {
+  "amn": {
+   "memory_reference_rate": 0.28,
+   "bertscore_f1": 0.8531,
+   "num_turns": 50
+  },
+  "baseline": {
+   "memory_reference_rate": 0.52,
+   "bertscore_f1": 0.843,
+   "num_turns": 50
+  },
+  "recency": {
+   "memory_reference_rate": 0.12,
+   "bertscore_f1": 0.869,
+   "num_turns": 50
+  },
+  "semantic_rag": {
+   "memory_reference_rate": 0.34,
+   "bertscore_f1": 0.8451,
+   "num_turns": 50
+  }
+ },
+ "convo_2": {
+  "amn": {
+   "memory_reference_rate": 0.22,
+   "bertscore_f1": 0.8572,
+   "num_turns": 50
+  },
+  "baseline": {
+   "memory_reference_rate": 0.5,
+   "bertscore_f1": 0.8437,
+   "num_turns": 50
+  },
+  "recency": {
+   "memory_reference_rate": 0.18,
+   "bertscore_f1": 0.8701,
+   "num_turns": 50
+  },
+  "semantic_rag": {
+   "memory_reference_rate": 0.18,
+   "bertscore_f1": 0.8378,
+   "num_turns": 50
+  }
+ },
+ "convo_3": {
+  "amn": {
+   "memory_reference_rate": 0.22,
+   "bertscore_f1": 0.8595,
+   "num_turns": 50
+  },
+  "baseline": {
+   "memory_reference_rate": 0.56,
+   "bertscore_f1": 0.8452,
+   "num_turns": 50
+  },
+  "recency": {
+   "memory_reference_rate": 0.28,
+   "bertscore_f1": 0.8501,
+   "num_turns": 50
+  },
+  "semantic_rag": {
+   "memory_reference_rate": 0.16,
+   "bertscore_f1": 0.842,
+   "num_turns": 50
+  }
+ },
+ "convo_4": {
+  "amn": {
+   "memory_reference_rate": 0.14,
+   "bertscore_f1": 0.8467,
+   "num_turns": 50
+  },
+  "baseline": {
+   "memory_reference_rate": 0.48,
+   "bertscore_f1": 0.8417,
+   "num_turns": 50
+  },
+  "recency": {
+   "memory_reference_rate": 0.2,
+   "bertscore_f1": 0.8549,
+   "num_turns": 50
+  },
+  "semantic_rag": {
+   "memory_reference_rate": 0.18,
+   "bertscore_f1": 0.8345,
+   "num_turns": 50
+  }
+ },
+ "convo_5": {
+  "amn": {
+   "memory_reference_rate": 0.1,
+   "bertscore_f1": 0.844,
+   "num_turns": 50
+  },
+  "baseline": {
+   "memory_reference_rate": 0.44,
+   "bertscore_f1": 0.8397,
+   "num_turns": 50
+  },
+  "recency": {
+   "memory_reference_rate": 0.22,
+   "bertscore_f1": 0.8536,
+   "num_turns": 50
+  },
+  "semantic_rag": {
+   "memory_reference_rate": 0.18,
+   "bertscore_f1": 0.8362,
+   "num_turns": 50
+  }
+ },
+ "convo_6": {
+  "amn": {
+   "memory_reference_rate": 0.18,
+   "bertscore_f1": 0.8455,
+   "num_turns": 50
+  },
+  "baseline": {
+   "memory_reference_rate": 0.44,
+   "bertscore_f1": 0.8452,
+   "num_turns": 50
+  },
+  "recency": {
+   "memory_reference_rate": 0.16,
+   "bertscore_f1": 0.8588,
+   "num_turns": 50
+  },
+  "semantic_rag": {
+   "memory_reference_rate": 0.16,
+   "bertscore_f1": 0.8381,
+   "num_turns": 50
+  }
+ },
+ "convo_7": {
+  "amn": {
+   "memory_reference_rate": 0.14,
+   "bertscore_f1": 0.8541,
+   "num_turns": 50
+  },
+  "baseline": {
+   "memory_reference_rate": 0.5,
+   "bertscore_f1": 0.8421,
+   "num_turns": 50
+  },
+  "recency": {
+   "memory_reference_rate": 0.18,
+   "bertscore_f1": 0.8595,
+   "num_turns": 50
+  },
+  "semantic_rag": {
+   "memory_reference_rate": 0.14,
+   "bertscore_f1": 0.8379,
+   "num_turns": 50
+  }
+ },
+ "convo_8": {
+  "amn": {
+   "memory_reference_rate": 0.1,
+   "bertscore_f1": 0.8527,
+   "num_turns": 50
+  },
+  "baseline": {
+   "memory_reference_rate": 0.56,
+   "bertscore_f1": 0.8449,
+   "num_turns": 50
+  },
+  "recency": {
+   "memory_reference_rate": 0.28,
+   "bertscore_f1": 0.8575,
+   "num_turns": 50
+  },
+  "semantic_rag": {
+   "memory_reference_rate": 0.12,
+   "bertscore_f1": 0.8367,
+   "num_turns": 50
+  }
+ },
+ "convo_9": {
+  "amn": {
+   "memory_reference_rate": 0.14,
+   "bertscore_f1": 0.8528,
+   "num_turns": 50
+  },
+  "baseline": {
+   "memory_reference_rate": 0.54,
+   "bertscore_f1": 0.845,
+   "num_turns": 50
+  },
+  "recency": {
+   "memory_reference_rate": 0.38,
+   "bertscore_f1": 0.8527,
+   "num_turns": 50
+  },
+  "semantic_rag": {
+   "memory_reference_rate": 0.18,
+   "bertscore_f1": 0.8391,
+   "num_turns": 50
+  }
+ },
+ "convo_10": {
+  "amn": {
+   "memory_reference_rate": 0.12,
+   "bertscore_f1": 0.8491,
+   "num_turns": 50
+  },
+  "baseline": {
+   "memory_reference_rate": 0.5,
+   "bertscore_f1": 0.8421,
+   "num_turns": 50
+  },
+  "recency": {
+   "memory_reference_rate": 0.38,
+   "bertscore_f1": 0.848,
+   "num_turns": 50
+  },
+  "semantic_rag": {
+   "memory_reference_rate": 0.18,
+   "bertscore_f1": 0.8415,
+   "num_turns": 50
+  }
+ }
+}

@@ -71,8 +71,11 @@ for i, (bar, mean) in enumerate(zip(bars, means)):
     ax.text(bar.get_x() + bar.get_width()/2., height + 0.02,
             f'{mean:.3f}', ha='center', va='bottom', fontweight='bold')
 plt.tight_layout()
-plt.savefig('results/figure1_coherence.png', dpi=300, bbox_inches='tight')
-print("Saved: results/figure1_coherence.png")
+from pathlib import Path
+figures_dir = Path('results/figures')
+figures_dir.mkdir(parents=True, exist_ok=True)
+plt.savefig(figures_dir / 'figure1_coherence.png', dpi=300, bbox_inches='tight')
+print("Saved: results/figures_new/figure1_coherence.png")
 plt.close()
 
 # ============================================================
@@ -129,8 +132,8 @@ for bar, mean in zip(bars, means):
     ax.text(bar.get_x() + bar.get_width()/2., height + 1,
             f'{mean:.1f}%', ha='center', va='bottom', fontweight='bold')
 plt.tight_layout()
-plt.savefig('results/figure2_memory_refs.png', dpi=300, bbox_inches='tight')
-print("Saved: results/figure2_memory_refs.png")
+plt.savefig(figures_dir / 'figure2_memory_refs.png', dpi=300, bbox_inches='tight')
+print("Saved: results/figures_new/figure2_memory_refs.png")
 plt.close()
 
 # ============================================================
@@ -155,8 +158,8 @@ ax.set_title('(b) Memory References', fontsize=14, fontweight='bold')
 ax.set_ylim([0, max(means_memory) * 1.3])
 ax.grid(axis='y', alpha=0.3)
 plt.tight_layout()
-plt.savefig('results/figure4_combined_metrics.png', dpi=300, bbox_inches='tight')
-print("Saved: results/figure4_combined_metrics.png")
+plt.savefig(figures_dir / 'figure4_combined_metrics.png', dpi=300, bbox_inches='tight')
+print("Saved: results/figures_new/figure4_combined_metrics.png")
 plt.close()
 
 # ============================================================
@@ -176,8 +179,8 @@ for autotext in autotexts:
     autotext.set_fontsize(10)
 ax.set_title('Emotion Distribution in Test Dataset', fontsize=16, fontweight='bold', pad=20)
 plt.tight_layout()
-plt.savefig('results/figure5_emotion_distribution.png', dpi=300, bbox_inches='tight')
-print("Saved: results/figure5_emotion_distribution.png")
+plt.savefig(figures_dir / 'figure5_emotion_distribution.png', dpi=300, bbox_inches='tight')
+print("Saved: results/figures_new/figure5_emotion_distribution.png")
 plt.close()
 
 # ============================================================
@@ -215,7 +218,7 @@ for condition in conditions:
         std = np.std(memory_refs[condition])
         print(f"   {condition:15s}: {mean:.1f}% ± {std:.1f}%")
 # Save statistics to file
-with open('results/statistics_summary.txt', 'w') as f:
+with open('results/figures_new/statistics_summary.txt', 'w') as f:
     f.write("="*60 + "\n")
     f.write("AMN EXPERIMENTAL RESULTS SUMMARY\n")
     f.write("="*60 + "\n\n")
@@ -231,13 +234,13 @@ with open('results/statistics_summary.txt', 'w') as f:
         if memory_refs[condition]:
             mean = np.mean(memory_refs[condition])
             f.write(f"  {condition:15s}: {mean:.1f}%\n")
-print("\nSaved: results/statistics_summary.txt")
+print("\nSaved: results/figures_new/statistics_summary.txt")
 print("\n" + "="*60)
 print("ALL FIGURES GENERATED!")
 print("="*60)
 print("\nGenerated files:")
-print("  results/figure1_coherence.png")
-print("  results/figure2_memory_refs.png")
-print("  results/figure4_combined_metrics.png")
-print("  results/figure5_emotion_distribution.png")
-print("  results/statistics_summary.txt")
+print("  results/figures_new/figure1_coherence.png")
+print("  results/figures_new/figure2_memory_refs.png")
+print("  results/figures_new/figure4_combined_metrics.png")
+print("  results/figures_new/figure5_emotion_distribution.png")
+print("  results/figures_new/statistics_summary.txt")

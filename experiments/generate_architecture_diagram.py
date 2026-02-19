@@ -43,5 +43,8 @@ ax.text(8, 7, "Multi-factor scoring", fontsize=9, style='italic')
 
 plt.title("AMN Architecture", fontsize=18, fontweight='bold', pad=20)
 plt.tight_layout()
-plt.savefig('results/figure3_architecture.png', dpi=300, bbox_inches='tight')
+from pathlib import Path
+figures_dir = Path('results/figures')
+figures_dir.mkdir(parents=True, exist_ok=True)
+plt.savefig(figures_dir / 'figure3_architecture.png', dpi=300, bbox_inches='tight')
 print("Saved: results/figure3_architecture.png")
